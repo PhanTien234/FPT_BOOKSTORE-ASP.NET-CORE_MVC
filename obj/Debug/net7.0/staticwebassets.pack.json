@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\FPT_BOOKSTORE.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\css\\login-register.css",
+      "PackagePath": "staticwebassets\\css\\login-register.css"
+    },
+    {
       "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\img\\2209_w015_n003_991b_p15_991.jpg",
+      "PackagePath": "staticwebassets\\img\\2209_w015_n003_991b_p15_991.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\img\\background.jpg",
+      "PackagePath": "staticwebassets\\img\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\img\\login-register.jpg",
+      "PackagePath": "staticwebassets\\img\\login-register.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\img\\login.png",
+      "PackagePath": "staticwebassets\\img\\login.png"
     },
     {
       "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\wwwroot\\js\\site.js",
