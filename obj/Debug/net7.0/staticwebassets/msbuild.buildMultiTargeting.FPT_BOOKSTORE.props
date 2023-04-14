@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FPT_BOOKSTORE.props" />
+</Project>
