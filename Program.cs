@@ -1,3 +1,4 @@
+using FPT_BOOKSTORE.AutoCreateDB;
 using FPT_BOOKSTORE.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -11,8 +12,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+// add automatic create db service here
+builder.Services.AddScoped<IAutoCreateDb, CreateDb>();
 
 var app = builder.Build();
 
@@ -34,6 +39,13 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+// inject or execute it
+using (var scope = app.Services.CreateScope())
+{
+    var dbCreate = scope.ServiceProvider.GetRequiredService<IAutoCreateDb>();
+    dbCreate.CreateDB();
+}
 
 app.MapControllerRoute(
     name: "default",
