@@ -23,11 +23,7 @@ public class Book
     public int Quantity { get; set; }
     [Required]
     public int CategoryId { get; set; }
-    [Required]
-    public int SupplierId { get; set; }
     // link to category
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
-    [ForeignKey("SupplierId")]
-    public Supplier Supplier { get; set; }
 }
