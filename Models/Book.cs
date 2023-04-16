@@ -15,7 +15,8 @@ public class Book
     public double Price { get; set; }
     [Required]
     public string Author { get; set; }
-    [Required]
+    
+    // [Required]
     public string ImgUrl { get; set; }
     [Required]
     public int NuPages { get; set; }
@@ -23,11 +24,9 @@ public class Book
     public int Quantity { get; set; }
     [Required]
     public int CategoryId { get; set; }
-    [Required]
-    public int SupplierId { get; set; }
+
     // link to category
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
-    [ForeignKey("SupplierId")]
-    public Supplier Supplier { get; set; }
+
 }
