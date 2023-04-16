@@ -19,4 +19,10 @@ public class Cart
     public User User { get; set; }
     [ForeignKey("BookId")]
     public Book Book { get; set; }
+    [NotMapped] public double Price { get; set; }
+
+    public Cart()
+    {
+        Count = 1;
+    }
 }

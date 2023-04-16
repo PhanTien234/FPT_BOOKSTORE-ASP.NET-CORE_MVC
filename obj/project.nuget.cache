@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h3XJhYaJpGbRwDBS4GvMfjP1F1Oxhs15BUGvFse+ALkPTmbvZRew/+w9IshX5aJkQjuVhp6mvld7VO+nXfRfpQ==",
+  "dgSpecHash": "I2gaeFr1ruM0id4ALDR+fu5AjnkDo7gc+lBYtgsoO4SUsNnhuJLtKvtgh3yBAffmFIlgu3m19757NhXkH+iLQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE\\FPT_BOOKSTORE\\FPT_BOOKSTORE.csproj",
+  "projectFilePath": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\FPT_BOOKSTORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PHANMINHTIEN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\PHANMINHTIEN\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

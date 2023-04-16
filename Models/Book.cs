@@ -12,6 +12,7 @@ public class Book
     [Required]
     public string Description { get; set; }
     [Required]
+    [Range(10,10000)] 
     public double Price { get; set; }
     [Required]
     public string Author { get; set; }
