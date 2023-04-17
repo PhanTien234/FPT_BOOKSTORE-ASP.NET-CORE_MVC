@@ -30,12 +30,14 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account.Manage
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
         public string Username { get; set; }
-
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
+        
+        public string PhoneNumm { get; set; }
         [TempData]
+        
         public string StatusMessage { get; set; }
 
         /// <summary>
@@ -58,13 +60,16 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account.Manage
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+            [Display(Name = "Home Address")]
+            public string HomeAddress { get; set; }
         }
 
         private async Task LoadAsync(IdentityUser user)
         {
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
-
+            
+            
             Username = userName;
 
             Input = new InputModel
