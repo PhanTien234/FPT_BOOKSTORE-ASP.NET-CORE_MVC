@@ -1,0 +1,24 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout !=  null)
+    {
+        Layout = parentLayout.ToString();
+    }
+    else
+    {
+        // ReSharper disable once Razor.LayoutNotResolved
+        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+    }
+}
+<div>
+    <div class="container-display manage">
+        <div class="container-part">
+            <partial name="_ManageNav" />
+            @RenderBody()
+        </div>
+           
+    </div>
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

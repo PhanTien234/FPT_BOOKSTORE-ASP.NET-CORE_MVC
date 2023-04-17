@@ -6,21 +6,19 @@
     background-size: cover;
     background-position: center;
 }
-.register-login {
-    position: relative;
-    width: 400px;
-    height: 660px;
-    background: #ffffff6f;
+
+.container-display.manage {
+    background: url(../img/login-register.jpg) no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, .5);
-    margin: 10px 0;
+    background-size: cover;
+    background-position: center;
 }
-.login-register {
+
+.container-part {
     position: relative;
-    height: 680px;
+    height: 655px;
     width: 400px;
     justify-content: center;
     align-items: center;
@@ -28,7 +26,7 @@
 
 .login {
     margin-top: 40px;
-    width: 100%;
+    width: 400px;
     height: 500px;
     padding: 70px 50px;
     background: #ffffff6f;
@@ -37,29 +35,67 @@
 }
 
 .login h2{
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: #162938;
     text-align: center;
     user-select: none;
+    font-weight: 500;
 }
 .register {
-    width: 100%;
-    padding: 50px;
+    padding: 30px 50px;
+    background: #ffffff6f;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    margin: 5px 0;
 }
 
 .register h2{
     font-size: 2.5em;
     color: #162938;
-    text-align: center;
+    text-align: center; 
     user-select: none;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    top: 60px;
+    left: 50px;
+    z-index: 1;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 650;
+    color: #162938;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+}   
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #0a58b3;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform: scale(1);
 }
 
 .input-box {
     position: relative;
     width: 100%;
-    height: 30px;
+    height: 40px;
     border-bottom: 2px solid #162938;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 .input-box-role {
     position: relative;
@@ -97,8 +133,8 @@
 }
 .input-box input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .input-box .icon {
@@ -112,14 +148,14 @@ input::-webkit-inner-spin-button {
 .btn-register-login{
     width: 100%;
     height: 45px;
-    background: #017a8c;
+    background: #162938;
     border: none;
     outline: none;
     border-radius: 6px;
     cursor: 1em;
     color: #fff;
     font-weight: 500;
-}
+} 
 .remember-forgot {
     padding: 10px 0;
     font-size: .9em;

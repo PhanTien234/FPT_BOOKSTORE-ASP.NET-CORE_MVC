@@ -37,6 +37,15 @@
     <_ContentIncludedByDefault Remove="Views\Category\Details.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Category\Edit.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Category\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\UnAuthenticated\Views\Book\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\UnAuthenticated\Views\Book\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\UnAuthenticated\Views\Book\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\UnAuthenticated\Views\Book\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\UnAuthenticated\Views\Book\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\books\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,71 @@
+@model FPT_BOOKSTORE.VM.BookVm
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<hr />
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <form asp-action="Create" method="post"  enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Book.Title" class="control-label"></label>
+                    <input asp-for="Book.Title" class="form-control" />
+                    <span asp-validation-for="Book.Title" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.Description" class="control-label"></label>
+                    <textarea asp-for="Book.Description" class="form-control"></textarea>
+                    <span asp-validation-for="Book.Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.Price" class="control-label"></label>
+                    <input asp-for="Book.Price" class="form-control" />
+                    <span asp-validation-for="Book.Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.Author" class="control-label"></label>
+                    <input asp-for="Book.Author" class="form-control" />
+                    <span asp-validation-for="Book.Author" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.NuPages" class="control-label"></label>
+                    <input asp-for="Book.NuPages" class="form-control" />
+                    <span asp-validation-for="Book.NuPages" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.Quantity" class="control-label"></label>
+                    <input asp-for="Book.Quantity" class="form-control" />
+                    <span asp-validation-for="Book.Quantity" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Book.CategoryId" class="form-label"></label>
+                    @Html.DropDownListFor(b => b.Book.CategoryId, Model.Categories,
+                        "--select categories", new { @class = "form-control" })
+                    <span asp-validation-for="Book.CategoryId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label>Image</label>
+                    <input type="file" name="file" multiple class="form-control" value="@Model.Book.ImgUrl">
+                    <span asp-validation-for="Book.ImgUrl" class="text-danger"></span>
+                </div>
+    
+    
+                    <button type="submit" class="btn btn-success">Create</button>
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
