@@ -1,9 +1,12 @@
 ﻿using FPT_BOOKSTORE.Data;
 using FPT_BOOKSTORE.Models;
+using FPT_BOOKSTORE.Utility.cs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FPT_BOOKSTORE.Controllers;
+
+[Area(Constraintt.AuthenticatedArea)]
 
 public class CategoryController : Controller
 {

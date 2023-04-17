@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FPT_BOOKSTORE.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230416024631_CreateDb")]
-    partial class CreateDb
+    [Migration("20230417020724_CreateDbc")]
+    partial class CreateDbc
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

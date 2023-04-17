@@ -12,11 +12,11 @@ public class Book
     [Required]
     public string Description { get; set; }
     [Required]
-    [Range(10,10000)] 
     public double Price { get; set; }
-    [Required]
+    [Required] 
     public string Author { get; set; }
-    [Required]
+    
+    // [Required]
     public string ImgUrl { get; set; }
     [Required]
     public int NuPages { get; set; }
@@ -24,7 +24,9 @@ public class Book
     public int Quantity { get; set; }
     [Required]
     public int CategoryId { get; set; }
+
     // link to category
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
+    
 }

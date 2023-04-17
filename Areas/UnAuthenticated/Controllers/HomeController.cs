@@ -1,9 +1,13 @@
 ﻿using FPT_BOOKSTORE.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using FPT_BOOKSTORE.Utility.cs;
+using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPT_BOOKSTORE.Controllers
 {
+    [Area(Constraintt.UnAuthenticatedArea)]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
