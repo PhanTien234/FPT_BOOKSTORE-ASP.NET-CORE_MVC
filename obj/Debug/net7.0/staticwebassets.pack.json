@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\img\\background.jpg"
     },
     {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\73533332-7658-486c-b882-7866d96e9f7e.PNG",
+      "PackagePath": "staticwebassets\\img\\books\\73533332-7658-486c-b882-7866d96e9f7e.PNG"
+    },
+    {
       "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\login-register.jpg",
       "PackagePath": "staticwebassets\\img\\login-register.jpg"
     },
