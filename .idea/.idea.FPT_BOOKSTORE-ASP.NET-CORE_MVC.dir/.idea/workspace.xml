@@ -10,26 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d195f4c-9ee8-4ad4-b2ef-e48ecca6501e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Email.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Email.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/login-register.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/login-register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
