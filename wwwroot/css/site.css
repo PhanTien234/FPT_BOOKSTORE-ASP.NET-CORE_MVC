@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 html {
   font-size: 14px;
 }
@@ -8,10 +17,6 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
 html {
   position: relative;
   min-height: 100%;
@@ -20,3 +25,29 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.footer-web {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  bottom: 0;
+}
+
+.container-footer {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  padding: 10px 0 0 20px;
+}
+
+.container-footer p a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.container-footer p a:hover {
+  text-decoration: underline;
+}
+

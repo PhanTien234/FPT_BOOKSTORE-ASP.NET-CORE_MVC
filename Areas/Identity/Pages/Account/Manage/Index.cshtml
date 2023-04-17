@@ -5,22 +5,28 @@
     ViewData["ActivePage"] = ManageNavPages.Index;
 }
 
-<h3>@ViewData["Title"]</h3>
 <partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
-    <div class="col-md-6">
+<div class="container-part">
+    <div class="login">
+        <h2>@ViewData["Title"]</h2>
         <form id="profile-form" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Username" class="form-control" placeholder="Please choose your username." disabled />
-                <label asp-for="Username" class="form-label"></label>
+            
+            <div class="input-box">
+                <input asp-for="Username" disabled />
+                <label asp-for="Username" style="top: -5px;"></label>
             </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number."/>
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
+            <div class="input-box">
+                <input asp-for="Input.PhoneNumber" />
+                <label asp-for="Input.PhoneNumber" ></label>
                 <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>
-            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+            <div class="input-box">
+                <input asp-for="Input.HomeAddress" />
+                <label asp-for="Input.HomeAddress" ></label>
+                <span asp-validation-for="Input.HomeAddress" class="text-danger"></span>
+            </div>
+            <button id="update-profile-button" type="submit" class="btn-register-login">Save</button>
         </form>
     </div>
 </div>
