@@ -35,7 +35,6 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account.Manage
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
         
-        public string PhoneNumm { get; set; }
         [TempData]
         
         public string StatusMessage { get; set; }

@@ -110,7 +110,7 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account
             
             [Required]
             [Display(Name = "Your phone number")]
-            public string PhoneNum { get; set; }
+            public string PhoneNumber { get; set; }
             
             // address and rolelist
             [Required]
@@ -148,7 +148,7 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account
                     FullName = Input.FullName,
                     EmailConfirmed = true,
                     HomeAddress = Input.HomeAddress,
-                    PhoneNum = Input.PhoneNum,
+                    PhoneNumber =  Input.PhoneNumber,
                 };
 
                 // phan nay se validate role cho drop down list role neu no co gia tri la 3 roles nhu duoi thi se add vao usermanger cho moi role

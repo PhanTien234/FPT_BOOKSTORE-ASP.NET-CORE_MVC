@@ -18,9 +18,6 @@ public class User : IdentityUser
     
     [NotMapped] public string Role { get; set; }
     
-    [Required]
-    public string PhoneNum { get; set; }
-    
     public DateTime CreatedAt { get; set; }
     public string CreatedBy { get; set; }
     public DateTime UpdateAt { get; set; }

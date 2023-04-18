@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FPT_BOOKSTORE.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230417020724_CreateDbc")]
-    partial class CreateDbc
+    [Migration("20230418070314_CreateDB")]
+    partial class CreateDB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -405,10 +405,6 @@ namespace FPT_BOOKSTORE.Migrations
 
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
-
-                    b.Property<string>("PhoneNum")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("UpdateAt")
                         .HasColumnType("datetime2");

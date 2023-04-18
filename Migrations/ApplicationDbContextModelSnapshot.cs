@@ -403,10 +403,6 @@ namespace FPT_BOOKSTORE.Migrations
                     b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
 
-                    b.Property<string>("PhoneNum")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("UpdateAt")
                         .HasColumnType("datetime2");
 

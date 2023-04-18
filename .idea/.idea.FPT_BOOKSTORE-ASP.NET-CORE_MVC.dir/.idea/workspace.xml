@@ -10,25 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d195f4c-9ee8-4ad4-b2ef-e48ecca6501e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/BookController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Book/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Book/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Book/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Book/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Book/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VM/BookVm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/677aab0f-2e3f-419b-880a-e87dc7e44587.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/73533332-7658-486c-b882-7866d96e9f7e.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FPT_BOOKSTORE.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FPT_BOOKSTORE.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoCreateDB/CreateDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutoCreateDB/CreateDb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230417020724_CreateDbc.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230417020724_CreateDbc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" afterDir="false" />
@@ -37,15 +31,22 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.FPT_BOOKSTORE.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.FPT_BOOKSTORE.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OaRwYBtn8HabTOxMPRdF6SCu9T" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -55,13 +56,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\PHANMINHTIEN\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\PHANMINHTIEN\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\PHANMINHTIEN\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -81,7 +91,19 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d195f4c-9ee8-4ad4-b2ef-e48ecca6501e" name="Changes" comment="" />
+      <created>1681796950572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681796950572</updated>
+      <workItem from="1681796952324" duration="2093000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

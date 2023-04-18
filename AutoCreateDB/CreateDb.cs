@@ -59,7 +59,7 @@ public class CreateDb : IAutoCreateDb
                 UserName = "admin@gmail.com",
                 Email = "fpt@gmail.com",
                 FullName = "Admin",
-                PhoneNum = "1234566",
+                PhoneNumber = "1234566",
                 HomeAddress = "Admin123",
                 EmailConfirmed = true,
             }, "Tien123@").GetAwaiter().GetResult();

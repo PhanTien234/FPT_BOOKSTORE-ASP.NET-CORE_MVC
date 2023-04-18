@@ -54,9 +54,9 @@
                     <span class="icon">
                         <ion-icon name="call"></ion-icon>
                     </span>
-                    <input asp-for="Input.PhoneNum" type="text" required/>
-                    <label asp-for="Input.PhoneNum">Phone number</label>
-                    <span asp-validation-for="Input.PhoneNum" class="text-danger"></span>
+                    <input asp-for="Input.PhoneNumber" type="text" required/>
+                    <label asp-for="Input.PhoneNumber">Phone number</label>
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
                 </div>
                 <div class="input-box-role">
                     @Html.DropDownListFor(n => n.Input.Role, Model.Input.SelectYourRole,
