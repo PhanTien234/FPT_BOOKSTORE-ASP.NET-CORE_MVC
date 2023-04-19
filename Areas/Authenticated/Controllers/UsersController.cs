@@ -6,10 +6,12 @@ using FPT_BOOKSTORE.VM;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPT_BOOKSTORE.Controllers;
 
     [Area(Constraintt.AuthenticatedArea)]
+    
 
     public class UsersController : Controller
     {
@@ -26,6 +28,7 @@ namespace FPT_BOOKSTORE.Controllers;
             _roleManger = roleManager;
         }
 
+        [Authorize(Roles = Constraintt.AdminRole)]
         public async Task<IActionResult> Index()
         {
             // taking current login user id
@@ -49,6 +52,7 @@ namespace FPT_BOOKSTORE.Controllers;
 
         // lock and unlock
 
+        [Authorize(Roles = Constraintt.AdminRole)]
         [HttpGet]
         public async Task<IActionResult> LockUnlock(string id)
         {
@@ -72,6 +76,7 @@ namespace FPT_BOOKSTORE.Controllers;
         }
 
 
+        [Authorize(Roles = Constraintt.AdminRole)]
         [HttpGet]
         public async Task<IActionResult> Delete(string id)
         {
@@ -98,8 +103,8 @@ namespace FPT_BOOKSTORE.Controllers;
         }
 
 
-        [HttpGet]
         [Authorize(Roles = Constraintt.AdminRole)]
+        [HttpGet]
         public async Task<IActionResult> ResetPassword(string token, string email)
         {
             if (token == null || email == null) ModelState.AddModelError("", "Invalid password reset token");
@@ -114,8 +119,8 @@ namespace FPT_BOOKSTORE.Controllers;
         }
 
 
-        [HttpPost]
         [Authorize(Roles = Constraintt.AdminRole)]
+        [HttpPost]
         public async Task<IActionResult> ConfirmEmail(ConfirmEmailVM confirmEmailVm)
         {
             if (ModelState.IsValid)
@@ -133,8 +138,8 @@ namespace FPT_BOOKSTORE.Controllers;
             return View(confirmEmailVm);
         }
 
-        [HttpPost]
         [Authorize(Roles = Constraintt.AdminRole)]
+        [HttpPost]
         public async Task<IActionResult> ResetPassword(ResetPasswordVM resetPasswordViewModel)
         {
             if (ModelState.IsValid)
@@ -152,6 +157,7 @@ namespace FPT_BOOKSTORE.Controllers;
         }
 
 
+        
         [HttpGet]
         public IActionResult EditUser(string id)
         {
@@ -183,4 +189,53 @@ namespace FPT_BOOKSTORE.Controllers;
 
             return RedirectToAction("EditUser", new { id });
         }
+        
+        // list all request categories to admin
+        [Authorize(Roles = Constraintt.AdminRole)]
+        [HttpGet]
+        public async Task<IActionResult> Requests()
+        {
+            var requests = await _db.Categories.Where(_ => _.Status == Category.StatusCategory.Pending).ToListAsync();
+
+            return View(requests);
+
+        }
+        
+        [Authorize(Roles = Constraintt.AdminRole)]
+        // this will be used for approve category
+        [HttpGet] // not http post because it's just trigger the function not pushing st
+        public async Task<IActionResult> ApproveRequest(int id)
+        {
+            var categoryToApprove = await _db.Categories.FindAsync(id);
+            if (categoryToApprove == null)
+                return NotFound("The request not found!");
+
+            // approve it if there's one
+            categoryToApprove.Status = Category.StatusCategory.Approve;
+            await _db.SaveChangesAsync();
+            Console.WriteLine("======================> Approve request successfully");
+
+            return RedirectToAction("Requests");
+        }
+        
+        
+        [Authorize(Roles = Constraintt.AdminRole)]
+        // this will be used for reject category
+        [HttpGet] // not http post because it's just trigger the function not pushing st
+        public async Task<IActionResult> RejectRequest(int id)
+        {
+            var categoryToReject = await _db.Categories.FindAsync(id);
+            if (categoryToReject == null)
+                return NotFound("The request not found!");
+
+            // reject it if there's one
+            categoryToReject.Status = Category.StatusCategory.Reject;
+            // also you can choose which way to deal with this data this line above just change the status of request not (delete yet) 
+            _db.Categories.Remove(categoryToReject); // this will delete 
+            await _db.SaveChangesAsync();
+            Console.WriteLine("======================> Reject request successfully");
+
+            return RedirectToAction("Requests");
+        }
+
     }

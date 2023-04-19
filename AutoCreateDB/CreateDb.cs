@@ -57,7 +57,7 @@ public class CreateDb : IAutoCreateDb
             _userManager.CreateAsync(new User()
             {
                 UserName = "admin@gmail.com",
-                Email = "fpt@gmail.com",
+                Email = "admin@gmail.com",
                 FullName = "Admin",
                 PhoneNumber = "1234566",
                 HomeAddress = "Admin123",

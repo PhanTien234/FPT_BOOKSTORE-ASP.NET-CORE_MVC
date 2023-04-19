@@ -14,15 +14,27 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews();
+
+// add automatic create db service here
+builder.Services.AddScoped<IAutoCreateDb, CreateDb>();
+builder.Services.AddOptions();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Identity/Account/Login";
+    options.LogoutPath = "/Identity/Account/Logout";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+});
+
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); //The time cookie available
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
-// add automatic create db service here
-builder.Services.AddScoped<IAutoCreateDb, CreateDb>();
+
 
 var app = builder.Build();
 

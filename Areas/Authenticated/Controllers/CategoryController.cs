@@ -1,12 +1,14 @@
 ﻿using FPT_BOOKSTORE.Data;
 using FPT_BOOKSTORE.Models;
 using FPT_BOOKSTORE.Utility.cs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FPT_BOOKSTORE.Controllers;
 
 [Area(Constraintt.AuthenticatedArea)]
+[Authorize(Roles = Constraintt.StoreOwnerRole)]
 // [Route("category/[action]/{id?}")]
 public class CategoryController : Controller
 {
@@ -20,7 +22,7 @@ public class CategoryController : Controller
     // GET: Categories
     public async Task<IActionResult> Index()
     {
-        return View(await _context.Categories.ToListAsync());
+        return View(await _context.Categories.Where(x => x.Status == Category.StatusCategory.Approve).ToListAsync());
     }
     
     // GET: Categories/Details/5
@@ -54,6 +56,9 @@ public class CategoryController : Controller
     {
         if (ModelState.IsValid)
         {
+            // set new category to pending (default after create by customer
+            category.Status = Category.StatusCategory.Pending;
+            
             _context.Add(category);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

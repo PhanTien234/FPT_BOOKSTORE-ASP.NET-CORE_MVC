@@ -10,15 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d195f4c-9ee8-4ad4-b2ef-e48ecca6501e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/UsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/ConfirmEmail.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/EditUser.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/ResetPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VM/ConfirmEmailVM.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VM/ResetPasswordVM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Requests.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/BooksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/BooksController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CartsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CartsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/MangementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/MangementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoCreateDB/CreateDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AutoCreateDB/CreateDb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230418070314_CreateDB.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230418070314_CreateDB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility.cs/Constraintt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utility.cs/Constraintt.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
@@ -101,7 +106,8 @@
       <updated>1681796950572</updated>
       <workItem from="1681796952324" duration="15619000" />
       <workItem from="1681874862210" duration="679000" />
-      <workItem from="1681886160278" duration="10205000" />
+      <workItem from="1681886160278" duration="12198000" />
+      <workItem from="1681909664484" duration="6173000" />
     </task>
     <servers />
   </component>

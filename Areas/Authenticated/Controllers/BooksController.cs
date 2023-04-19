@@ -3,6 +3,7 @@ using FPT_BOOKSTORE.Data;
 using FPT_BOOKSTORE.Models;
 using FPT_BOOKSTORE.Utility.cs;
 using FPT_BOOKSTORE.VM;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,8 @@ using Microsoft.EntityFrameworkCore;
 namespace FPT_BOOKSTORE.Controllers;
 
 [Area(Constraintt.AuthenticatedArea)]
+[Authorize(Roles = Constraintt.StoreOwnerRole)]
+
 public class BooksController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -125,7 +128,9 @@ public class BooksController : Controller
         // method for category select list VM
         private IEnumerable<SelectListItem> CategorySelectListItems()
         {
-            var categories = _context.Categories.ToList();
+            var categories = _context.Categories
+                .Where(c => c.Status == Category.StatusCategory.Approve)
+                .ToList();
 
             // for each book
             var result = categories

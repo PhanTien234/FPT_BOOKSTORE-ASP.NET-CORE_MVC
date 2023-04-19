@@ -1,6 +1,6 @@
 namespace FPT_BOOKSTORE.Utility.cs;
 
-public class Constraintt
+public static class Constraintt // neu ko bo static thi khi chay app lan dau se ko an, tru khi build neu la static thi chi can an nut chay la xong 
 {
     // tao ra nhung hang so string de tien cho viec (su dung lai)
     public const string AuthenticatedArea = "Authenticated";

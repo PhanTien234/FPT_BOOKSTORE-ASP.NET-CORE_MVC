@@ -8,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 namespace FPT_BOOKSTORE.Controllers;
 
 [Area(Constraintt.AuthenticatedArea)]
-[Authorize(Roles = Constraintt.StoreOwnerRole)]
+[Authorize(Roles = Constraintt.StoreOwnerRole + "," + Constraintt.CustomerRole)]
+
 public class ManagementController : Controller
 {
     private readonly ApplicationDbContext _db;
