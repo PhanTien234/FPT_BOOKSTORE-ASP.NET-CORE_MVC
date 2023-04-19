@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore;
 namespace FPT_BOOKSTORE.Controllers;
 
 [Area(Constraintt.AuthenticatedArea)]
-
+// [Route("category/[action]/{id?}")]
 public class CategoryController : Controller
 {
     private readonly ApplicationDbContext _context;
-
+    
     public CategoryController(ApplicationDbContext context)
     {
         _context = context;

@@ -10,10 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d195f4c-9ee8-4ad4-b2ef-e48ecca6501e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/MangementController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Management/Detail.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Management/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Shared/_StatusMessenger.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/UsersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/ConfirmEmail.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/EditUser.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/ResetPassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VM/ConfirmEmailVM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VM/ResetPasswordVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +36,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b7d7cb6609f8d85f36dfd4df6123c8060f4fd5e1699c5f959de6e918d7351/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2OaRwYBtn8HabTOxMPRdF6SCu9T" />
   <component name="ProjectLevelVcsManager">
@@ -84,7 +101,7 @@
       <updated>1681796950572</updated>
       <workItem from="1681796952324" duration="15619000" />
       <workItem from="1681874862210" duration="679000" />
-      <workItem from="1681886160278" duration="3223000" />
+      <workItem from="1681886160278" duration="10205000" />
     </task>
     <servers />
   </component>
