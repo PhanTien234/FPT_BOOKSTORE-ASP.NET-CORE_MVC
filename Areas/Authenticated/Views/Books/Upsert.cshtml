@@ -1,0 +1,63 @@
+@model FPT_BOOKSTORE.VM.BookVm
+
+@{
+    Layout = "_Layout";
+    var title = Model.Book.Id != 0 ? "Update Book" : "Add Book";
+}
+
+<h1>@title</h1>
+<form method="post" asp-controller="Books" asp-action="Upsert" enctype="multipart/form-data">
+    <input asp-for="Book.Id" class="form-control" hidden>
+    <div class="row justify-content-center">
+        <img src="@Model.Book.ImgUrl" width="20%" style="border-radius: 5px" border: solid green alt=""/>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Title" class="form-label"></label>
+        <input asp-for="Book.Title" class="form-control">
+        <span asp-validation-for="Book.Title" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Description" class="form-label"></label>
+        <input asp-for="Book.Description" class="form-control">
+        <span asp-validation-for="Book.Description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Price" class="form-label"></label>
+        <input asp-for="Book.Price" class="form-control">
+        <span asp-validation-for="Book.Price" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Author" class="form-label"></label>
+        <input asp-for="Book.Author" class="form-control">
+        <span asp-validation-for="Book.Author" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.NuPages" class="form-label"></label>
+        <input asp-for="Book.NuPages" class="form-control">
+        <span asp-validation-for="Book.NuPages" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.CategoryId" class="form-label"></label>
+        @Html.DropDownListFor(b => b.Book.CategoryId, Model.Categories,
+            "--select categories", new { @class = "form-control" })
+        <span asp-validation-for="Book.CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Image</label>
+        <input type="file" name="file" multiple class="form-control" value="@Model.Book.ImgUrl">
+        <span asp-validation-for="Book.ImgUrl" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<div class="mt-5">
+    <h3>Other options</h3>
+    <div class="d-flex mt-2">
+        <h6>Upload books by excel file</h6>
+        <form asp-controller="Books" asp-action="UploadExcel" method="post" enctype="multipart/form-data"
+              asp-antiforgery="false">
+            <input type="file" name="file"/>
+            <input type="submit" name="Submit" class="btn btn-primary"/>
+        </form>
+    </div>
+</div>>

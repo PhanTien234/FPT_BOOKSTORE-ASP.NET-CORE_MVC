@@ -1,8 +1,78 @@
-@{
-    ViewData["Title"] = "Home Page";
-}
+@model IEnumerable<FPT_BOOKSTORE.Models.Book>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<form asp-action="Index" method="get">
+    <div class="d-flex flex-row mb-3">
+        <input
+            type="text" name="SearchString" value="@ViewData["CurrentFilter"]"
+            required pattern="\S+.*" placeholder="Find By Name or Category"
+            class="w-50 mr-1"/>
+        <button type="submit" value="Search" class="btn btn-primary mr-1">Search</button>
+        <a asp-action="Index" class="btn btn-info mr-1">Back to List</a>
+    </div>
+</form>
+
+<div class="row pb-3 backgroundWhite">
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-md-6">
+            <div class="row p-2">
+                <div class="home-product-item col-12 p-1" style="border:1px solid #008cba; border-radius: 5px;">
+                    <div class="card" style="border:0px;">
+                        <img src="@product.ImgUrl" class="card-img-top rounded border"/>
+                        <div class="pl-1 pt-2">
+                            <p class="card-title h5" style="min-height: 48px">
+                                <b style="color:#2c3e50">@product.Title</b>
+                            </p>
+                            <p class="card-title text-primary">by <b>@product.Author</b></p>
+                        </div>
+                        <div style="padding-left:5px;">
+                            <p>@product.Category.Name</p>
+                        </div>
+                        <div style="padding-left:5px;">
+                            <p style="color:maroon">Price: <b class="">$ @product.Price</b></p>
+                        </div>
+                    </div>
+                    <div >
+                        <a asp-controller="Home"
+                            asp-action="Details" class="btn-primary btn form-control" 
+                           asp-route-id="@product.Id">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </div>
+
+<div style="display:flex;text-align:center;justify-content:center">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @for (var i = 0; i < @ViewBag.numberOfPages; i++)
+            {
+                var style = (ViewBag.currentPage == @i) ? "active" : "";
+                <li class="page-item @style">
+                    <a class="page-link" asp-route-id="@i" asp-route-searchString="@ViewData["CurrentFilter"]">@(i + 1)</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
+
+<style>
+    .home-product-item {
+        display: block;
+        position: relative;
+        margin-top: 10px;
+        background-color: #fff;
+        border-radius: 2px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+        transition: transform ease-in 0.1s;
+        will-change: transform;
+        border: 1px solid transparent;
+    }
+    
+    .home-product-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+        border: 1px solid red !important;
+    }
+</style>

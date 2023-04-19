@@ -1,0 +1,73 @@
+@model IEnumerable<Book>
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="row">
+    <div class="col-6">
+        <h1>Book</h1>
+    </div>
+    <div class="col-6">
+        <a asp-controller="Books" asp-action="Upsert" class="btn btn-outline-success">
+            <i class="fa-solid fa-plus"></i>
+        </a>
+    </div>
+</div>
+<div>
+    <form class="form-inline my-2 my-lg-0 float-right w-25">
+        <div class="p-3">
+            <i class="fa-brands fa-searchengin"></i>
+        </div>
+        <input id="myInput" class="form-control mr-sm-2" type="text" placeholder="Search">
+    </form>
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Price</th>
+        <th scope="col">Category</th>
+        <th scope="col">Action</th>
+    </tr>
+    </thead>
+    <tbody id="tblData">
+    @foreach (var obj in Model)
+    {
+        <tr>
+            <th scope="row">@obj.Id</th>
+            <td>@obj.Title</td>
+            <td>@obj.Description</td>
+            <td>@obj.Price</td>
+            <td>@obj.Category.Name</td>
+            <td>
+                <a asp-controller="Books" asp-action="Upsert" asp-route-id="@obj.Id"
+                   class="btn btn-outline-warning">
+                    Update
+                </a>
+                <a asp-controller="Books" asp-action="Delete"
+                   onclick="return confirm('Are you sure to delete this category')"
+                   asp-route-id="@obj.Id" class="btn btn-outline-danger">
+                    Delete
+                </a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function(){
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                
+                $("#tblData tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+}

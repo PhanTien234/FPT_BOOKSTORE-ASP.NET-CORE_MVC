@@ -8,4 +8,5 @@ public class Constraintt
     public const string AdminRole = "Admin";
     public const string StoreOwnerRole = "StoreOwner";
     public const string CustomerRole = "Customer";
+    public const string ssShoppingCart = "Shopping Cart Session";
 }

@@ -15,7 +15,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); //The time cookie available
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 // add automatic create db service here
 builder.Services.AddScoped<IAutoCreateDb, CreateDb>();
 
@@ -33,12 +38,15 @@ else
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession();
 
 // inject or execute it
 using (var scope = app.Services.CreateScope())

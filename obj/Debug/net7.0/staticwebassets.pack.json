@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\img\\background.jpg"
     },
     {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\5da13b09-2a16-4444-88a8-dfdd81a0f3c3.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\5da13b09-2a16-4444-88a8-dfdd81a0f3c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\62d7ac7d-cca7-4ff3-9daf-f24cbdbe2cc3.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\62d7ac7d-cca7-4ff3-9daf-f24cbdbe2cc3.jpg"
+    },
+    {
       "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg",
       "PackagePath": "staticwebassets\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg"
     },
@@ -35,6 +43,10 @@
     {
       "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\97bd5958-a24a-4fe2-86b7-eca308370752.jpg",
       "PackagePath": "staticwebassets\\img\\books\\97bd5958-a24a-4fe2-86b7-eca308370752.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\dc80e9b5-506b-4ae1-aad7-697773711be3.jpg",
+      "PackagePath": "staticwebassets\\img\\books\\dc80e9b5-506b-4ae1-aad7-697773711be3.jpg"
     },
     {
       "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\login-register.jpg",

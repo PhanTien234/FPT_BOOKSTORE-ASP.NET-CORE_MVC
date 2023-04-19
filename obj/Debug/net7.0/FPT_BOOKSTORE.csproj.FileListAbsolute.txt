@@ -1141,3 +1141,8 @@ E:\FPT_BOOKSTORE-ASP.NET-CORE_MVC\obj\Debug\net7.0\FPT_BOOKSTORE.pdb
 E:\FPT_BOOKSTORE-ASP.NET-CORE_MVC\obj\Debug\net7.0\FPT_BOOKSTORE.genruntimeconfig.cache
 E:\FPT_BOOKSTORE-ASP.NET-CORE_MVC\obj\Debug\net7.0\ref\FPT_BOOKSTORE.dll
 >>>>>>> b3b57f020276825fc8d6c064e716c90d56e8450f
+C:\Users\PHANMINHTIEN\Downloads\FPT_BOOKSTORE-ASP.NET-CORE_MVC\bin\Debug\net7.0\ExcelDataReader.dll
+C:\Users\PHANMINHTIEN\Downloads\FPT_BOOKSTORE-ASP.NET-CORE_MVC\bin\Debug\net7.0\MailKit.dll
+C:\Users\PHANMINHTIEN\Downloads\FPT_BOOKSTORE-ASP.NET-CORE_MVC\bin\Debug\net7.0\MimeKit.dll
+C:\Users\PHANMINHTIEN\Downloads\FPT_BOOKSTORE-ASP.NET-CORE_MVC\bin\Debug\net7.0\NETCore.MailKit.dll
+C:\Users\PHANMINHTIEN\Downloads\FPT_BOOKSTORE-ASP.NET-CORE_MVC\bin\Debug\net7.0\BouncyCastle.Crypto.dll

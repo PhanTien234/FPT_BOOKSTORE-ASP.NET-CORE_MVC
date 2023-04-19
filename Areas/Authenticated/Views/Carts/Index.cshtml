@@ -1,0 +1,125 @@
+@model FPT_BOOKSTORE.VM.ShoppingCartVM
+<form method="post">
+    <br/>
+    @if (Model.ListCarts.Any())
+    {
+        <div class="backgroundWhiteBorder">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header bg-dark text-light ml-0 row container">
+                        <div class="col-6">
+                            <i class="fa fa-shopping-cart"></i> &nbsp;
+                            Shopping Cart
+                        </div>
+                        <div class="col-6 text-right">
+                            <a asp-area="UnAuthenticated" asp-controller="Home" asp-action="Index" class="btn btn-outline-info btn-sm">Continue Shopping</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        @foreach (var item in Model.ListCarts)
+                        {
+                            <div class="row">
+                                <div class="d-none d-lg-block col-lg-1 text-center py-2">
+                                    <img src="@item.Book.ImgUrl" class="rounded" width="100%"/>
+                                </div>
+                                <div class="col-12 text-sm-center col-lg-6 text-lg-left">
+                                    <div class="d-flex">
+                                        <h5>
+                                            <strong>@item.Book.Title</strong>
+                                        </h5>
+                                        <div class="col-12 text-sm-center col-lg-6 text-lg-left">
+                                            <span class="badge badge-warning pt-2" style="height:30px;">@item.Book.Category.Name</span>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <small>@item.Book.Description</small>
+                                    </p>
+                                </div>
+                                <div class="col-12 text-sm-center col-lg-5 text-lg-right row">
+                                    <div class="col-4 text-md-right" style="padding-top:5px;">
+                                        <h6>
+                                            <strong>đ @item.Book.Price<span class="text-muted">x</span> @item.Count </strong>
+                                        </h6>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-lg-6">
+                                        <div class="float-right mx-1">
+                                            <a asp-action="plus" asp-route-cartId="@item.Id" class="btn btn-primary">
+                                                <i class="fas fa-plus"></i>
+                                            </a>
+                                        </div>
+                                        <div class="float-right mx-1">
+                                            <a asp-action="minus" asp-route-cartId="@item.Id" class="btn btn-danger">
+                                                <i class="fas fa-minus"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 col-sm-4 col-lg-2 text-right">
+                                        @* <a asp-action="remove" asp-route-cartId="@item.Id" class="btn btn-danger"> *@
+                                        <a class="btn btn-danger" onclick=Delete(@item.Id)>
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                        }
+                        <div class="row">
+                            <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
+                                <ul class="list-group">
+                                    <li class="list-group-item d-flex justify-content-between bg-light">
+                                        <span class="text-info"> Total ($)</span>
+                                        <strong class="text-info">đ <span id="txtOrderTotal">@Model.Order.Total</span></strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-footer row">
+                            <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
+                                <a asp-area="Authenticated" asp-controller="Carts" asp-action="Summary" class="btn btn-success form-control">Summary</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div> There is no item in shopping cart </div>
+    }
+</form>
+
+@section Scripts{
+    <script>
+    function Delete(id){
+        swal({
+            title: "Are you sure?",
+            text: "Once deleted, you will not be able to recover this imaginary file!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        }).then((willDelete) => {
+            if (willDelete){
+                $.ajax({
+                    type: "DELETE",
+                    url: "/Authenticated/Carts/Delete/" + id,
+                    success: function (data){
+                        console.log(data)
+                        if(data.success){
+                            toastr.success(data.message);
+                            setTimeout(function(){
+                               window.location.reload(1);
+                            }, 500);
+                        }
+                        else {
+                            toastr.error(data.message);
+                        }
+                    }
+                });
+            }
+        });
+    }
+    </script>
+}
