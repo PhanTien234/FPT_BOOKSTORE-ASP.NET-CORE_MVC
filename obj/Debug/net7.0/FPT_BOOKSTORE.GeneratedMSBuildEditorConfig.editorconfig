@@ -78,6 +78,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXJ0c1xTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Management/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xNYW5hZ2VtZW50XERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Management/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xNYW5hZ2VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -212,6 +220,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_StatusMessenger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdGF0dXNNZXNzZW5nZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]

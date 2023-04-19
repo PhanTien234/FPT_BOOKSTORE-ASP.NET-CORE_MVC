@@ -1,0 +1,72 @@
+@model IList<FPT_BOOKSTORE.Models.Order>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Order List";
+}
+
+@if (Model.Any())
+{
+    <partial name="_StatusMessenger" model="@ViewData["Message"]"/>
+
+    <div class="card shadow mb-4">
+        <partial name="_StatusMessenger" model="@ViewData["Message"]"/>
+        <div class="card-body text-dark" style="background-color: #d3d4d4">
+            <div class="table-responsive font-weight-bold">
+                <table class="table table-bordered" id="dataTable">
+
+                    <thead>
+                    <tr>
+                        <th>Oder Id</th>
+                        <th>Customer Name</th>
+                        <th>Customer Adress</th>
+                        <th>Customer Email</th>
+                        <th>Order Date</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+
+                    @if (Model.Count > 10)
+                    {
+                        <tfoot>
+                        <tr>
+                            <th>Oder Id</th>
+                            <th>Customer Name</th>
+                            <th>Customer Adress</th>
+                            <th>Customer Email</th>
+                            <th>Order Date</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                        </tfoot>
+                    }
+
+                    <tbody>
+                    @foreach (var order in @Model)
+                    {
+                        <tr>
+                            <td>@order.Id</td>
+                            <td>@order.User.FullName</td>
+                            <td>@order.User.HomeAddress</td>
+                            <td>@order.User.Email</td>
+                            <td>@order.Order_Date</td>
+                            <td>@order.Total</td>
+                            <td>
+                                <a asp-controller="Management" asp-action="Detail"
+                                   asp-route-managementId="@order.Id"
+                                   class="btn btn-info">View Detail</a>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h2 class="text-center">No Value Order</h2>
+    <partial name="_StatusMessenger" model="@ViewData["Message"]"/>
+}

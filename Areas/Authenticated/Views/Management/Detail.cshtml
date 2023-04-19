@@ -1,0 +1,49 @@
+@model IEnumerable<FPT_BOOKSTORE.Models.OrderDetail>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Order Detail";
+}
+
+<div class="card shadow mb-4">
+    <partial name="_StatusMessenger" model="@ViewData["Message"]"/>
+    <div class="card-body text-dark" style="background-color: #d3d4d4">
+        <div class="table-responsive font-weight-bold">
+            <table class="table table-bordered" id="dataTable">
+
+                <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+                </thead>
+                
+                <tbody>
+                @{
+                    double sum = 0;
+                }
+
+                @foreach (var order in @Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            <img src="@order.Book.ImgUrl" class="card-img-top rounded" style="width: 50%" alt=""/>
+                        </td>
+                        <td>@order.Book.Title</td>
+                        <td>@order.Book.Price</td>
+                        <td>@order.Quantity</td>
+                        @{
+                            var total = @order.Book.Price * @order.Quantity;
+                            sum += total;
+                        }
+                        <td>@total</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
