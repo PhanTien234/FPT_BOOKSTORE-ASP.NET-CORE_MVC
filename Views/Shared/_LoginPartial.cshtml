@@ -3,6 +3,7 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
+
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
@@ -23,4 +24,13 @@ else
         <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
     </li>
 }
+    <form asp-action="Index" method="get">
+        <div class="input-box">
+            <input
+                type="text" name="SearchString" value="@ViewData["CurrentFilter"]"
+                required pattern="\S+.*" placeholder="Find By Name or Category"
+                class="w-50 mr-1"/>
+            <button type="submit" value="Search" class="btn-register-login">Search</button>
+        </div>
+    </form>
 </ul>

@@ -31,6 +31,7 @@ body {
   background-color: #fff;
   width: 100%;
   bottom: 0;
+  background: #162938;
 }
 
 .container-footer {
@@ -39,15 +40,37 @@ body {
   width: 100%;
   display: flex;
   padding: 10px 0 0 20px;
+  color: #fff;
 }
 
 .container-footer p a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
-  font-weight: 600;
 }
 
 .container-footer p a:hover {
   text-decoration: underline;
+}
+.navigation-main{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  top: 20px;
+}
+
+.navigation-main a {
+  position: relative;
+  font-size: 1.3em;
+  font-weight: 650;
+  color: #162938;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 23px;
+}   
+
+.form-search{
+  position: absolute;
+  top: 50px;
+  left: 140px;
 }
 

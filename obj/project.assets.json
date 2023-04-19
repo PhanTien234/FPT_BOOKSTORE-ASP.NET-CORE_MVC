@@ -11248,24 +11248,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PHANMINHTIEN\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\RiRi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\FPT_BOOKSTORE.csproj",
+      "projectUniqueName": "D:\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\FPT_BOOKSTORE.csproj",
       "projectName": "FPT_BOOKSTORE",
-      "projectPath": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\FPT_BOOKSTORE.csproj",
-      "packagesPath": "C:\\Users\\PHANMINHTIEN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\obj\\",
+      "projectPath": "D:\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\FPT_BOOKSTORE.csproj",
+      "packagesPath": "C:\\Users\\RiRi\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PHANMINHTIEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\RiRi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11273,7 +11268,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
