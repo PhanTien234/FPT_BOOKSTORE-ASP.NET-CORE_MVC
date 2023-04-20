@@ -85,32 +85,49 @@ namespace FPT_BOOKSTORE.Controllers;
         }
 
         
-        // delete
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
             try
             {
-                var cart = _db.Carts.Include(p => p.Book)
-                    .FirstOrDefault(c => c.Id == id);
-
-                // get all ids
-                var cnt = _db.Carts.Where(u => u.UserId == cart.UserId).ToList().Count;
+                var cart = await _db.Carts.FindAsync(id);
+        
                 if (cart == null)
                 {
-                    return Json(new { success = false, message = "Error while deleting" });
+                    return Json(new { success = false, message = "Cart item not found." });
                 }
-
+        
                 _db.Carts.Remove(cart);
                 await _db.SaveChangesAsync();
-                HttpContext.Session.SetInt32(Constraintt.ssShoppingCart, cnt - 1);
-                return Json(new { success = true, message = "Delete successfully!" });
+        
+                // update the shopping cart count in the session
+                var userId = cart.UserId;
+                var count = _db.Carts.Count(c => c.UserId == userId);
+                HttpContext.Session.SetInt32(Constraintt.ssShoppingCart, count);
+        
+                return Json(new { success = true, message = "Cart item deleted." });
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return Json(new { success = false, message = e.Message });
+                return Json(new { success = false, message = "Error deleting cart item: " + ex.Message });
             }
         }
+        
+        // [HttpPost]
+        // [ValidateAntiForgeryToken]
+        // public async Task<IActionResult> Delete(int id)
+        // {
+        //     var cart = await _db.Carts.FindAsync(id);
+        //     if (cart == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //
+        //     _db.Carts.Remove(cart);
+        //     await _db.SaveChangesAsync();
+        //
+        //     return RedirectToAction(nameof(Index));
+        // }
 
         // summary
         [HttpGet]

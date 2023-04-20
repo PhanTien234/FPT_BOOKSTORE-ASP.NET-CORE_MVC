@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 namespace FPT_BOOKSTORE.Controllers;
 
     [Area(Constraintt.AuthenticatedArea)]
-    
+    [Authorize(Roles = Constraintt.AdminRole)]
 
     public class UsersController : Controller
     {
@@ -27,8 +27,7 @@ namespace FPT_BOOKSTORE.Controllers;
             _userManager = userManager;
             _roleManger = roleManager;
         }
-
-        [Authorize(Roles = Constraintt.AdminRole)]
+        
         public async Task<IActionResult> Index()
         {
             // taking current login user id
@@ -51,8 +50,6 @@ namespace FPT_BOOKSTORE.Controllers;
 
 
         // lock and unlock
-
-        [Authorize(Roles = Constraintt.AdminRole)]
         [HttpGet]
         public async Task<IActionResult> LockUnlock(string id)
         {
@@ -74,9 +71,7 @@ namespace FPT_BOOKSTORE.Controllers;
             _db.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
-
-
-        [Authorize(Roles = Constraintt.AdminRole)]
+        
         [HttpGet]
         public async Task<IActionResult> Delete(string id)
         {
@@ -101,9 +96,7 @@ namespace FPT_BOOKSTORE.Controllers;
 
             return View(confirmEmailVm);
         }
-
-
-        [Authorize(Roles = Constraintt.AdminRole)]
+        
         [HttpGet]
         public async Task<IActionResult> ResetPassword(string token, string email)
         {
@@ -117,9 +110,7 @@ namespace FPT_BOOKSTORE.Controllers;
 
             return View(resetPasswordViewModel);
         }
-
-
-        [Authorize(Roles = Constraintt.AdminRole)]
+        
         [HttpPost]
         public async Task<IActionResult> ConfirmEmail(ConfirmEmailVM confirmEmailVm)
         {
@@ -137,8 +128,7 @@ namespace FPT_BOOKSTORE.Controllers;
 
             return View(confirmEmailVm);
         }
-
-        [Authorize(Roles = Constraintt.AdminRole)]
+        
         [HttpPost]
         public async Task<IActionResult> ResetPassword(ResetPasswordVM resetPasswordViewModel)
         {

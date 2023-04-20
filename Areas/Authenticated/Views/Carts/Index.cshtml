@@ -63,10 +63,14 @@
                                         </div>
                                     </div>
                                     <div class="col-2 col-sm-4 col-lg-2 text-right">
-                                        @* <a asp-action="remove" asp-route-cartId="@item.Id" class="btn btn-danger"> *@
-                                        <a class="btn btn-danger" onclick=Delete(@item.Id)>
+                                        <a asp-action="delete" asp-route-cartId="@item.Id" class="btn btn-danger">
+                                            @* <a class="btn btn-danger" onclick="Delete(@item.Id)"> *@
                                             <i class="fas fa-trash"></i>
                                         </a>
+                                        @* <form asp-action="Delete" asp-route-id="@item.Id" method="post"> *@
+                                        @*     <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?');" /> *@
+                                        @* </form> *@
+                                        @* *@
                                     </div>
                                 </div>
                             </div>

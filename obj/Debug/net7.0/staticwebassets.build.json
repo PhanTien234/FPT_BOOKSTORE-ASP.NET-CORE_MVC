@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NoI0WfcoeJjPQSB/nv/RSwIlFWEWJlTXcWZAadJS8pI=",
+  "Hash": "FURbIaOfzyCG89B76k2AVGOGpOHOWiOplC5KdEZEkXo=",
   "Source": "FPT_BOOKSTORE",
   "BasePath": "_content/FPT_BOOKSTORE",
   "Mode": "Default",
@@ -1173,6 +1173,23 @@
       "OriginalItemSpec": "wwwroot\\img\\books\\01e0a214-f9ed-4308-a7dd-a0ee43a9b599.jpg"
     },
     {
+      "Identity": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\10591a3f-5eda-4564-8f3d-dc4d8a66dde4.jpg",
+      "SourceId": "FPT_BOOKSTORE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\",
+      "BasePath": "_content/FPT_BOOKSTORE",
+      "RelativePath": "img/books/10591a3f-5eda-4564-8f3d-dc4d8a66dde4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\books\\10591a3f-5eda-4564-8f3d-dc4d8a66dde4.jpg"
+    },
+    {
       "Identity": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\1a6713fc-f822-4590-ab76-becec31a8509.jpg",
       "SourceId": "FPT_BOOKSTORE",
       "SourceType": "Discovered",
@@ -1256,6 +1273,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\books\\62d7ac7d-cca7-4ff3-9daf-f24cbdbe2cc3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\633bed8f-3ecf-4ae4-a49c-4fbf9dc10669.jpg",
+      "SourceId": "FPT_BOOKSTORE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\",
+      "BasePath": "_content/FPT_BOOKSTORE",
+      "RelativePath": "img/books/633bed8f-3ecf-4ae4-a49c-4fbf9dc10669.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\books\\633bed8f-3ecf-4ae4-a49c-4fbf9dc10669.jpg"
     },
     {
       "Identity": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg",
