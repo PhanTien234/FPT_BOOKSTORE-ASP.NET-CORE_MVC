@@ -85,17 +85,16 @@ namespace FPT_BOOKSTORE.Controllers;
         }
 
         
-        [HttpDelete]
+        [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
             try
             {
                 var cart = await _db.Carts.FindAsync(id);
-        
+
                 if (cart == null)
-                {
-                    return Json(new { success = false, message = "Cart item not found." });
-                }
+                    return NotFound("Cart is empty");
+                
         
                 _db.Carts.Remove(cart);
                 await _db.SaveChangesAsync();
@@ -104,31 +103,17 @@ namespace FPT_BOOKSTORE.Controllers;
                 var userId = cart.UserId;
                 var count = _db.Carts.Count(c => c.UserId == userId);
                 HttpContext.Session.SetInt32(Constraintt.ssShoppingCart, count);
-        
-                return Json(new { success = true, message = "Cart item deleted." });
+
+                return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)
             {
-                return Json(new { success = false, message = "Error deleting cart item: " + ex.Message });
+                Console.WriteLine("Something went wrong");
             }
+
+            return RedirectToAction(nameof(Index));
         }
         
-        // [HttpPost]
-        // [ValidateAntiForgeryToken]
-        // public async Task<IActionResult> Delete(int id)
-        // {
-        //     var cart = await _db.Carts.FindAsync(id);
-        //     if (cart == null)
-        //     {
-        //         return NotFound();
-        //     }
-        //
-        //     _db.Carts.Remove(cart);
-        //     await _db.SaveChangesAsync();
-        //
-        //     return RedirectToAction(nameof(Index));
-        // }
-
         // summary
         [HttpGet]
         public IActionResult Summary()

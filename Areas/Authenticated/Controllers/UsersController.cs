@@ -158,17 +158,20 @@ namespace FPT_BOOKSTORE.Controllers;
         [HttpPost]
         public IActionResult EditUser(User user)
         {
-            if (ModelState.IsValid)
+            var adminStoreOwnerCustomer = _db.Users.Find(user.Id);
+            if (adminStoreOwnerCustomer == null)
             {
-                var adminStoreOwnerCustomer = _db.Users.Find(user.Id);
-                adminStoreOwnerCustomer.FullName = user.FullName;
-                _db.Users.Update(adminStoreOwnerCustomer);
-                _db.SaveChanges();
-
-                return RedirectToAction(nameof(Index));
+                return NotFound("User is null");
             }
 
-            return View(user);
+            adminStoreOwnerCustomer.FullName = user.FullName;
+            adminStoreOwnerCustomer.PhoneNumber = user.PhoneNumber;
+            adminStoreOwnerCustomer.HomeAddress = user.HomeAddress;
+                
+            _db.Users.Update(adminStoreOwnerCustomer);
+            _db.SaveChanges();
+            
+            return RedirectToAction(nameof(Index));
         }
 
         public async Task<IActionResult> Edit(string id)
