@@ -3,6 +3,7 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
+
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
@@ -10,7 +11,9 @@
     </li>
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+           
+            @* code lai dao dien link *@
+            <button  type="submit" class="nav-link btn btn-link" style="color: rgb(94, 0, 0);">Logout</button>
         </form>
     </li>
 }
@@ -23,4 +26,17 @@ else
         <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
     </li>
 }
+    <div class="container-search">
+        <form asp-action="Index" method="get">
+            <div class="search-box">
+                <input id="searching" type="text" name="SearchString" value="@ViewData["CurrentFilter"]" required pattern="\S+.*"/>
+                <label for="searching" >Search Book</label>
+                <span class="icon">
+                    <button type="submit" value="Search" class="btn-search">
+                        <ion-icon name="search-circle-outline"></ion-icon>
+                    </button>
+                </span>
+            </div>
+        </form>
+    </div>
 </ul>

@@ -1,3 +1,4 @@
+using System.Runtime.InteropServices;
 using System.Security.Claims;
 using FPT_BOOKSTORE.Data;
 using FPT_BOOKSTORE.Utility.cs;
@@ -27,11 +28,31 @@ public class ManagementController : Controller
 
         var claimsIdentity = (ClaimsIdentity)User.Identity;
         var claims = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+        
+        // check if user has the "storeowner" role
+        bool isStoreOwner = User.IsInRole(Constraintt.StoreOwnerRole);
+        
+        if (isStoreOwner)
+        {
+            // if user has "storeowner" role, display all orders
+            var orderList = _db.Orders
+                .Include(o => o.User)
+                .ToList();
+            
+            return View(orderList);
+        }
+        else
+        {
+            // if user has any other role, display only orders belonging to that user
+            var orderList = _db.Orders
+                .Where(x => x.UserId == claims.Value)
+                .Include(o => o.User)
+                .ToList();
+            
+            return View(orderList);
+        }
+        
 
-        var orderList = _db.Orders
-            .Include(o => o.User)
-            .ToList();
-        return View(orderList);
     }
         
     // detail of management
