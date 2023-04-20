@@ -1,4 +1,4 @@
-﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 @using Microsoft.AspNetCore.Http
 @using FPT_BOOKSTORE.Utility
 @using FPT_BOOKSTORE.Utility.cs
@@ -57,7 +57,26 @@
                     </li>
                     <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                         <ul class="navbar-nav flex-grow-1">
-                            @if (User.IsInRole("Customer"))
+                            @if(User.IsInRole("Admin")){
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Users" asp-action="Requests">Requests</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Users" asp-action="Index">User</a>
+                                </li>
+                            }else if (User.IsInRole("StoreOwner"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Books" asp-action="Index">Book</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Management" asp-action="Index">Dashboard</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Category" asp-action="Index">Category</a>
+                                </li>
+                            }else if (User.IsInRole("Customer"))
                             {
                                 var count = HttpContextAccessor.HttpContext.Session.GetInt32(Constraintt.ssShoppingCart) ?? 0;
                                 <li style="color: white">
@@ -65,24 +84,12 @@
                                         <i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; (@count)
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Management" asp-action="Index">My Order List</a>
+                                </li>
                             }
                         </ul>
                     </div>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Users" asp-action="Index">User</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Management" asp-action="Index">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Category" asp-action="Index">Category</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Books" asp-action="Index">Book</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Authenticated" asp-controller="Users" asp-action="Requests">Requests</a>
-                    </li>
                 </ul>
                 <partial name="_LoginPartial"/>
             </div>

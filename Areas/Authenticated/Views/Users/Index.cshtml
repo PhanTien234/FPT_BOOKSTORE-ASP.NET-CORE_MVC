@@ -1,9 +1,10 @@
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 @model IEnumerable<User>
 
-@{
-    Layout = "_Layout";
-}
+@* @{ *@
+@*     Layout = "_Layout"; *@
+@*     Layout = "_Layout2"; *@
+@* } *@
 
 @if (Model.Any())
 {
@@ -33,7 +34,7 @@
     <table class="table table-striped">
         <thead id="tbHead">
         <tr>
-            <th scope="col">#</th>
+            <th scope="col">Nu</th>
             <th scope="col">Full Name</th>
             <th scope="col">Email</th>
             <th scope="col">Role</th>
