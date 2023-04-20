@@ -4,8 +4,11 @@
 
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using FPT_BOOKSTORE.Data;
+using FPT_BOOKSTORE.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -16,13 +19,16 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account.Manage
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        public readonly ApplicationDbContext _db;
 
         public IndexModel(
             UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager)
+            SignInManager<IdentityUser> signInManager,
+            ApplicationDbContext db)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _db = db;
         }
 
         /// <summary>
@@ -63,17 +69,27 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account.Manage
             public string HomeAddress { get; set; }
         }
 
+        
+        
         private async Task LoadAsync(IdentityUser user)
         {
+            // get current user
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            var currentUserId = claim.Value;
+            
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
-            
-            
+            var userFromDb = await _db.Users.FindAsync(currentUserId);
+
+
             Username = userName;
+
 
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = phoneNumber,
+                HomeAddress = userFromDb.HomeAddress
             };
         }
 

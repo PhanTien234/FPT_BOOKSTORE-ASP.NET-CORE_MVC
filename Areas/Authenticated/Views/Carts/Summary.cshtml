@@ -41,6 +41,9 @@
                                     <span class="text-info">Order Summary:</span>
                                 </h4>
                                 <ul class="list-group mb-3">
+                                    @{
+                                        double subTotal = 0;
+                                    }
                                     @foreach (var details in Model.ListCarts)
                                     {
                                         <li class="list-group-item d-flex justify-content-between">
@@ -48,12 +51,19 @@
                                                 <h6 class="my-0">@details.Book.Title</h6>
                                                 <small class="text-muted">Quantity: @details.Count</small>
                                             </div>
-                                            <span class="text-muted">đ@(details.Price * details.Count) </span>
+                                            <span class="text-muted">đ@{
+                                                                          var total = details.Price * details.Count;
+                                                                      } 
+                                                    @total
+                                                </span>
+                                            @{
+                                                subTotal += total;
+                                            }
                                         </li>
                                     }
                                     <li class="list-group-item d-flex justify-content-between bg-light">
                                         <small class="text-info">Total (VND)</small>
-                                        <strong class="text-info">đ@(Model.Order.Total)</strong>
+                                        <strong class="text-info">đ @subTotal</strong>
                                     </li>
                                 </ul>
                             </div>

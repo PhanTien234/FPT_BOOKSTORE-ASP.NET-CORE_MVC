@@ -18,6 +18,7 @@
                     <div class="card-body">
                         @foreach (var item in Model.ListCarts)
                         {
+                            
                             <div class="row">
                                 <div class="d-none d-lg-block col-lg-1 text-center py-2">
                                     <img src="@item.Book.ImgUrl" class="rounded" width="100%"/>
@@ -36,10 +37,18 @@
                                     </p>
                                 </div>
                                 <div class="col-12 text-sm-center col-lg-5 text-lg-right row">
-                                    <div class="col-4 text-md-right" style="padding-top:5px;">
-                                        <h6>
-                                            <strong>đ @item.Book.Price<span class="text-muted">x</span> @item.Count </strong>
-                                        </h6>
+                                    <div class="col-4 text-md-right d-flex justify-content-around" style="padding-top:5px;">
+                                        <div class="">
+                                            <strong>$ @item.Book.Price<span class="text-muted">x</span> @item.Count </strong>
+                                        </div>
+                                        <div class="">
+                                            <strong>
+                                                Total:  @{
+                                                            var bookPrice = item.Book.Price * item.Count;
+                                                            @bookPrice
+                                                        }
+                                            </strong>
+                                        </div>
                                     </div>
                                     <div class="col-6 col-sm-4 col-lg-6">
                                         <div class="float-right mx-1">
@@ -68,7 +77,7 @@
                                 <ul class="list-group">
                                     <li class="list-group-item d-flex justify-content-between bg-light">
                                         <span class="text-info"> Total ($)</span>
-                                        <strong class="text-info">đ <span id="txtOrderTotal">@Model.Order.Total</span></strong>
+                                        <strong class="text-info">$ <span id="txtOrderTotal">@Model.Order.Total</span></strong>
                                     </li>
                                 </ul>
                             </div>
