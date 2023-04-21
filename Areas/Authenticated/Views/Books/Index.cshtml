@@ -1,8 +1,21 @@
 @model IEnumerable<Book>
 
-@* @{ *@
-@*     Layout = "_Layout1"; *@
-@* } *@
+@if(TempData["DeleteBoMessage"] != null && (bool)TempData["ShowMessage"]){
+    <div id="deleteBoMessage" class="alert alert-danger">@TempData["DeleteBoMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#deleteBoMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}else if (TempData["CreateBoMessage"] != null && (bool)TempData["ShowMessage"])
+{
+    <div id="createBoMessage" class="alert alert-success">@TempData["CreateBoMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#createBoMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}
 
 <div class="row">
     <div class="col-6">
@@ -48,7 +61,7 @@
                     Update
                 </a>
                 <a asp-controller="Books" asp-action="Delete"
-                   onclick="return confirm('Are you sure to delete this category')"
+                   onclick="return confirm('Are you sure to delete this Book')"
                    asp-route-id="@obj.Id" class="btn btn-outline-danger">
                     Delete
                 </a>

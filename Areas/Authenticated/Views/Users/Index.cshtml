@@ -1,10 +1,21 @@
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 @model IEnumerable<User>
 
-@* @{ *@
-@*     Layout = "_Layout"; *@
-@*     Layout = "_Layout2"; *@
-@* } *@
+@if(TempData["EditUserMessage"] != null && (bool)TempData["ShowMessage"]){
+    <div id="editUserMessage" class="alert alert-warning">@TempData["EditUserMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#editUserMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}else if(TempData["DeleteUserMessage"] != null && (bool)TempData["ShowMessage"]){
+    <div id="deleteUserMessage" class="alert alert-danger">@TempData["DeleteUserMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#deleteUserMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}
 
 @if (Model.Any())
 {
@@ -41,10 +52,6 @@
             <th scope="col">Address</th>
             <th scope="col">Phone Number</th>
             <th scope="col">Create at</th>
-            <th scope="col">Create by</th>
-            <th scope="col">Update at</th>
-            <th scope="col">Update by</th>
-            <th scope="col">Is delete</th>
             <th scope="col">Action</th>
         </tr>
         </thead>
@@ -62,10 +69,6 @@
                 <td>@obj.HomeAddress</td>
                 <td>@obj.PhoneNumber</td>
                 <td>@obj.CreatedAt</td>
-                <td>@obj.CreatedBy</td>
-                <td>@obj.UpdateAt</td>
-                <td>@obj.UpdatedBy</td>
-                <td>@obj.IsDelete</td>
                 <td>
                     <a asp-controller="Users" asp-action="Edit" asp-route-id="@obj.Id"
                        class="btn btn-sm btn-outline-info">
@@ -74,15 +77,17 @@
 
                     @if (obj.LockoutEnd < DateTime.Now || obj.LockoutEnd == null)
                     {
-                        <a asp-area="Authenticated" asp-controller="Users" asp-action="LockUnlock"
-                           asp-route-id="@obj.Id" class="btn btn-sm btn-outline-warning">
+                        <a asp-area="Authenticated" asp-controller="Users" asp-action="LockUnlock" 
+                           onclick="return confirm('Do you wanna Lockout this user?')" asp-route-id="@obj.Id"
+                           class="btn btn-sm btn-outline-warning">
                             <i class="fa-solid fa-lock"></i>
                         </a>
                     }
                     else
                     {
                         <a asp-area="Authenticated" asp-controller="Users" asp-action="LockUnlock"
-                           asp-route-id="@obj.Id" class="btn btn-sm btn-outline-warning">
+                           onclick="return confirm('Do you wanna to UnLock this user?')" asp-route-id="@obj.Id"
+                           class="btn btn-sm btn-outline-warning">
                             <i class="fa-solid fa-lock-open"></i>
                         </a>
                     }
@@ -98,17 +103,17 @@
                             <i class="fa-solid fa-trash"></i>
                         </a>
                     }
-                    else
-                    {
-                        @if (obj.Role == "Customer")
-                        {
-                            <a asp-area="Authenticated" asp-controller="Users"
-                               asp-action="Delete" onclick="return confirm('Do you want to delete')"
-                               asp-route-id="@obj.Id" class="btn btn-sm btn-outline-danger">
-                                <i class="fa-solid fa-trash"></i>
-                            </a>
-                        }
-                    }
+                    @* else *@
+                    @* { *@
+                    @*     @if (obj.Role == "Customer") *@
+                    @*     { *@
+                    @*         <a asp-area="Authenticated" asp-controller="Users" *@
+                    @*            asp-action="Delete" onclick="return confirm('Do you want to delete')" *@
+                    @*            asp-route-id="@obj.Id" class="btn btn-sm btn-outline-danger"> *@
+                    @*             <i class="fa-solid fa-trash"></i> *@
+                    @*         </a> *@
+                    @*     } *@
+                    @* } *@
                 </td>
             </tr>
             i++;

@@ -112,6 +112,8 @@ public class CategoryController : Controller
                     throw;
                 }
             }
+            TempData["EditCateMessage"] = "Edited Category!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
         return View(category);
@@ -143,6 +145,8 @@ public class CategoryController : Controller
         var category = await _context.Categories.FindAsync(id);
         _context.Categories.Remove(category);
         await _context.SaveChangesAsync();
+        TempData["DeleteCateMessage"] = "Deleted Category!";
+        TempData["ShowMessage"] = true; //Set flag to show message in the view
         return RedirectToAction(nameof(Index));
     }
 

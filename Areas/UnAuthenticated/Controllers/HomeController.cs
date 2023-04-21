@@ -122,6 +122,8 @@ namespace FPT_BOOKSTORE.Controllers
             {
                 HttpContext.Session.SetInt32(Constraintt.ssShoppingCart, count);
             }
+            TempData["AddCartMessage"] = "You added an product into Cart!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
     }

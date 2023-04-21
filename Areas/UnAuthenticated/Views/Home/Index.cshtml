@@ -1,15 +1,13 @@
 @model IEnumerable<FPT_BOOKSTORE.Models.Book>
 
-@* <form asp-action="Index" method="get">
-    <div class="d-flex flex-row mb-3">
-        <input
-            type="text" name="SearchString" value="@ViewData["CurrentFilter"]"
-            required pattern="\S+.*" placeholder="Find By Name or Category"
-            class="w-50 mr-1"/>
-        <button type="submit" value="Search" class="btn btn-primary mr-1">Search</button>
-        <a asp-action="Index" class="btn btn-info mr-1">Back to List</a>
-    </div>
-</form> *@
+@if(TempData["AddCartMessage"] != null && (bool)TempData["ShowMessage"]){
+    <div id="addCartMessage" class="alert alert-success">@TempData["AddCartMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#addCartMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}
 
 <div class="row pb-3 backgroundWhite">
     @foreach (var product in Model)

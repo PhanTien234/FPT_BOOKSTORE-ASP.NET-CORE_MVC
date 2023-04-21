@@ -8,6 +8,21 @@
             $("#successMessage").fadeOut("slow");
         }, 5000);
     </script>
+}else if(TempData["DeleteCateMessage"] != null && (bool)TempData["ShowMessage"]){
+    <div id="deleteCateMessage" class="alert alert-danger">@TempData["DeleteCateMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#deleteCateMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}else if (TempData["EditCateMessage"] != null && (bool)TempData["ShowMessage"])
+{
+    <div id="editCateMessage" class="alert alert-warning">@TempData["EditCateMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#editCateMessage").fadeOut("slow");
+        }, 5000);
+    </script>
 }
 <h1>Categories</h1>
 

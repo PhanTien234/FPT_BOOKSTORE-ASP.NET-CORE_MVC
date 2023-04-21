@@ -67,8 +67,8 @@ namespace FPT_BOOKSTORE.Controllers;
                 userNeedToLock.LockoutEnd = DateTime.Now;
             else
                 userNeedToLock.LockoutEnd = DateTime.Now.AddYears(1000);
-
             _db.SaveChanges();
+
             return RedirectToAction(nameof(Index));
         }
         
@@ -78,7 +78,8 @@ namespace FPT_BOOKSTORE.Controllers;
             var user = await _userManager.FindByIdAsync(id);
             if (user == null) return NotFound();
             await _userManager.DeleteAsync(user);
-
+            TempData["DeleteUserMessage"] = "User Deleted!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
 
@@ -171,6 +172,8 @@ namespace FPT_BOOKSTORE.Controllers;
             _db.Users.Update(adminStoreOwnerCustomer);
             _db.SaveChanges();
             
+            TempData["EditUserMessage"] = "The information of User updated!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
 

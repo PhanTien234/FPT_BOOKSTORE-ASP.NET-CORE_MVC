@@ -19,8 +19,4 @@ public class User : IdentityUser
     [NotMapped] public string Role { get; set; }
     
     public DateTime CreatedAt { get; set; }
-    public string CreatedBy { get; set; }
-    public DateTime UpdateAt { get; set; }
-    public string UpdatedBy { get; set; }
-    public bool IsDelete { get; set; }
 }

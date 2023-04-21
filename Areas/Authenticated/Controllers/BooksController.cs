@@ -3,6 +3,7 @@ using FPT_BOOKSTORE.Data;
 using FPT_BOOKSTORE.Models;
 using FPT_BOOKSTORE.Utility.cs;
 using FPT_BOOKSTORE.VM;
+using Humanizer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -43,7 +44,8 @@ public class BooksController : Controller
             _context.Books.Remove(objBook);
             _context.SaveChanges();
 
-
+            TempData["DeleteBoMessage"] = "Deleted Book Successfully!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
 
@@ -65,7 +67,6 @@ public class BooksController : Controller
 
             var book = _context.Books.Find(id);
             bookVm.Book = book;
-
             return View(bookVm);
         }
 
@@ -76,6 +77,7 @@ public class BooksController : Controller
             if (ModelState.IsValid)
             {
                 bookVm.Categories = CategorySelectListItems();
+                
                 return View(bookVm);
             }
 
@@ -113,16 +115,21 @@ public class BooksController : Controller
 
 
             if (bookVm.Book.Id == 0 || bookVm.Book.Id == null)
+            {
                 _context.Books.Add(bookVm.Book);
+            }
             else
+            {
                 _context.Books.Update(bookVm.Book);
-
+            }
             _context.SaveChanges();
+            TempData["CreateBoMessage"] = "Created Book Successfully!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
+            return RedirectToAction(nameof(Index));
 
             // provide data for the categories list
             // bookVm.;Categories = CategorySelectListItems();
 
-            return RedirectToAction(nameof(Index));
         }
 
         // method for category select list VM
