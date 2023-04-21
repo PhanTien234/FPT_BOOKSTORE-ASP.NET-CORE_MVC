@@ -61,6 +61,8 @@ public class CategoryController : Controller
             
             _context.Add(category);
             await _context.SaveChangesAsync();
+            TempData["SuccessMessage"] = "Send Request for Admin Approve Category successfully!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
         return View(category);

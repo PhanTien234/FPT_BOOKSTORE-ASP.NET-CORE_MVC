@@ -206,8 +206,8 @@ namespace FPT_BOOKSTORE.Controllers;
             // approve it if there's one
             categoryToApprove.Status = Category.StatusCategory.Approve;
             await _db.SaveChangesAsync();
-            Console.WriteLine("======================> Approve request successfully");
-
+            TempData["SuccessMessage1"] = "Approved for Create Category successfully!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction("Requests");
         }
         
@@ -226,7 +226,8 @@ namespace FPT_BOOKSTORE.Controllers;
             // also you can choose which way to deal with this data this line above just change the status of request not (delete yet) 
             _db.Categories.Remove(categoryToReject); // this will delete 
             await _db.SaveChangesAsync();
-            Console.WriteLine("======================> Reject request successfully");
+            TempData["RejectMessage"] = "Rejected for Create Category!";
+            TempData["ShowMessage"] = true; //Set flag to show message in the view
 
             return RedirectToAction("Requests");
         }

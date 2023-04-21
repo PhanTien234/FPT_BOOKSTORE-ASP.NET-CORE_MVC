@@ -1,5 +1,22 @@
 @model IEnumerable<FPT_BOOKSTORE.Models.Category>
 
+@if(TempData["SuccessMessage1"] != null && (bool)TempData["ShowMessage"]){
+    <div id="successMessage1" class="alert alert-success">@TempData["SuccessMessage1"]</div>
+    <script>
+        setTimeout(function() {
+            $("#successMessage1").fadeOut("slow");
+        }, 5000);
+    </script>
+}else if (TempData["RejectMessage"] != null && (bool)TempData["ShowMessage"])
+{
+    <div id="rejectMessage" class="alert alert-danger">@TempData["RejectMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#rejectMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}
+
 <h1>Requests</h1>
 
 
@@ -33,3 +50,7 @@
     }
     </tbody>
 </table>
+
+
+    
+    

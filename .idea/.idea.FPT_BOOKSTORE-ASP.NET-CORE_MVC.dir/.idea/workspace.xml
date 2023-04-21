@@ -11,17 +11,21 @@
   <component name="ChangeListManager">
     <list default="true" id="6d195f4c-9ee8-4ad4-b2ef-e48ecca6501e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CartsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CartsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/BooksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/BooksController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/CategoryController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/EditUser.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/EditUser.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Books/Upsert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Books/Upsert.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Summary.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Summary.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Requests.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Requests.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/_ViewStart.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/img/books/8b46b32c-5605-4f28-9bd3-7462db60735b.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +108,8 @@
       <workItem from="1681963697261" duration="3840000" />
       <workItem from="1681972092043" duration="11286000" />
       <workItem from="1681985511645" duration="4280000" />
-      <workItem from="1682000183423" duration="4671000" />
+      <workItem from="1682000183423" duration="5388000" />
+      <workItem from="1682039238085" duration="5033000" />
     </task>
     <servers />
   </component>

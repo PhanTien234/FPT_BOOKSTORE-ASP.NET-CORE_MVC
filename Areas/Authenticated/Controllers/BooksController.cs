@@ -143,58 +143,58 @@ public class BooksController : Controller
             return result;
         }
 
-        // Upload Book
-        public IActionResult UploadExcel(IFormFile file)
-        {
-            if (file == null)
-            {
-                return RedirectToAction(nameof(Index));
-            }
-
-            var path = Path.Combine(_environment.WebRootPath, "uploads");
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
-
-            string fileName = Path.GetFileName(file.FileName);
-            string filePath = Path.Combine(path, fileName);
-
-            using (FileStream stream = new FileStream(filePath, FileMode.Create))
-            {
-                file.CopyTo(stream);
-            }
-
-            using var streamFile = System.IO.File.Open(filePath, FileMode.Open, FileAccess.Read);
-            using var reader = ExcelReaderFactory.CreateReader(streamFile);
-            
-            
-            while (reader.Read())
-            {
-                var category = _context.Categories.FirstOrDefault(c => c.Name == reader.GetValue(3).ToString());
-                if (category == null)
-                { 
-                    continue;
-                }
-                
-                var book = new Book()
-                {
-                    Title = reader.GetValue(0).ToString(),
-                    Description = reader.GetValue(1).ToString(),
-                    Price = Convert.ToDouble(reader.GetValue(2).ToString()),
-                    CategoryId = category.Id,
-                    Author = reader.GetValue(4).ToString(),
-                    NuPages = Convert.ToInt32(reader.GetValue(5).ToString()),
-                    ImgUrl = reader.GetValue(6).ToString(),
-                };
-
-                _context.Books.Add(book);
-            }
-
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
-
-        }
+        // // Upload Book
+        // public IActionResult UploadExcel(IFormFile file)
+        // {
+        //     if (file == null)
+        //     {
+        //         return RedirectToAction(nameof(Index));
+        //     }
+        //
+        //     var path = Path.Combine(_environment.WebRootPath, "uploads");
+        //     if (!Directory.Exists(path))
+        //     {
+        //         Directory.CreateDirectory(path);
+        //     }
+        //
+        //     string fileName = Path.GetFileName(file.FileName);
+        //     string filePath = Path.Combine(path, fileName);
+        //
+        //     using (FileStream stream = new FileStream(filePath, FileMode.Create))
+        //     {
+        //         file.CopyTo(stream);
+        //     }
+        //
+        //     using var streamFile = System.IO.File.Open(filePath, FileMode.Open, FileAccess.Read);
+        //     using var reader = ExcelReaderFactory.CreateReader(streamFile);
+        //     
+        //     
+        //     while (reader.Read())
+        //     {
+        //         var category = _context.Categories.FirstOrDefault(c => c.Name == reader.GetValue(3).ToString());
+        //         if (category == null)
+        //         { 
+        //             continue;
+        //         }
+        //         
+        //         var book = new Book()
+        //         {
+        //             Title = reader.GetValue(0).ToString(),
+        //             Description = reader.GetValue(1).ToString(),
+        //             Price = Convert.ToDouble(reader.GetValue(2).ToString()),
+        //             CategoryId = category.Id,
+        //             Author = reader.GetValue(4).ToString(),
+        //             NuPages = Convert.ToInt32(reader.GetValue(5).ToString()),
+        //             ImgUrl = reader.GetValue(6).ToString(),
+        //         };
+        //
+        //         _context.Books.Add(book);
+        //     }
+        //
+        //     _context.SaveChanges();
+        //     return RedirectToAction(nameof(Index));
+        //
+        // }
     
     
     

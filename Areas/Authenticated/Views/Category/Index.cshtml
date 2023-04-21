@@ -1,5 +1,14 @@
 @model IEnumerable<FPT_BOOKSTORE.Models.Category>
 
+
+@if(TempData["SuccessMessage"] != null && (bool)TempData["ShowMessage"]){
+    <div id="successMessage" class="alert alert-success">@TempData["SuccessMessage"]</div>
+    <script>
+        setTimeout(function() {
+            $("#successMessage").fadeOut("slow");
+        }, 5000);
+    </script>
+}
 <h1>Categories</h1>
 
 <p>
