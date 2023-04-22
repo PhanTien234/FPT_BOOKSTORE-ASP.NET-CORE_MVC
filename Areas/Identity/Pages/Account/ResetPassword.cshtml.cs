@@ -71,20 +71,29 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account
 
         }
 
-        public IActionResult OnGet(string code = null)
+        public async Task<IActionResult> OnGetAsync(string code = null, string email = null)
         {
             if (code == null)
             {
                 return BadRequest("A code must be supplied for password reset.");
             }
-            else
+ 
+            var user = await _userManager.FindByEmailAsync(email);
+ 
+            if (user == null)
             {
-                Input = new InputModel
-                {
-                    Code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code))
-                };
-                return Page();
+                // Don't reveal that the user does not exist
+                return RedirectToPage("./ForgotPasswordConfirmation");
             }
+ 
+            Input = new InputModel
+            {
+                Code = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code)),
+                Email = email
+            };
+ 
+ 
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
@@ -93,20 +102,22 @@ namespace FPT_BOOKSTORE.Areas.Identity.Pages.Account
             {
                 return Page();
             }
-
+ 
+            Console.WriteLine(Input.Code);
+ 
             var user = await _userManager.FindByEmailAsync(Input.Email);
             if (user == null)
             {
                 // Don't reveal that the user does not exist
                 return RedirectToPage("./ResetPasswordConfirmation");
             }
-
+ 
             var result = await _userManager.ResetPasswordAsync(user, Input.Code, Input.Password);
             if (result.Succeeded)
             {
                 return RedirectToPage("./ResetPasswordConfirmation");
             }
-
+ 
             foreach (var error in result.Errors)
             {
                 ModelState.AddModelError(string.Empty, error.Description);

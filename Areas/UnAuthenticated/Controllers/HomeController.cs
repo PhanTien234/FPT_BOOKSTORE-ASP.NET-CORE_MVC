@@ -126,5 +126,11 @@ namespace FPT_BOOKSTORE.Controllers
             TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
+        
+        public async Task<IActionResult> HelpScreen()
+        {
+            
+            return View();
+        }
     }
 }
