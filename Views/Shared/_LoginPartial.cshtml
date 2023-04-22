@@ -11,9 +11,11 @@
     </li>
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-           
-            @* code lai dao dien link *@
-            <button  type="submit" class="nav-link btn btn-link" style="color: rgb(94, 0, 0);">Logout</button>
+            <button  type="submit" class="nav-link btn btn-link" style="color: rgb(94, 0, 0);">
+                <span class="icon">
+                    <ion-icon name="log-out-outline" style="transform: scale(1.4)"></ion-icon>
+                </span>
+            </button>
         </form>
     </li>
 }
@@ -31,11 +33,11 @@ else
             <div class="search-box">
                 <input id="searching" type="text" name="SearchString" value="@ViewData["CurrentFilter"]" required pattern="\S+.*"/>
                 <label for="searching" >Search Book</label>
-                <span class="icon">
-                    <button type="submit" value="Search" class="btn-search">
+                <button type="submit" value="Search" class="btn-search">
+                    <span class="icon">
                         <ion-icon name="search-circle-outline"></ion-icon>
-                    </button>
-                </span>
+                    </span>
+                </button>
             </div>
         </form>
     </div>

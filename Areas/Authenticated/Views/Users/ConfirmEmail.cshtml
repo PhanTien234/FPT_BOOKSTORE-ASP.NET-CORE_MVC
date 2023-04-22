@@ -6,13 +6,21 @@
     // Layout = "_Layout";
     // Layout = "_Layout2";
 }
-<h2>Check Email</h2>
-<form method="post">
-    <div class="mb-3">
-        <label asp-for="Email" class="form-label"></label>
-        <input asp-for="Email" class="form-control" readonly="true">
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
 
-    <button type="submit" class="btn btn-primary">Check</button>
-</form>
+<div class="book-container">
+    <div class="book-detail-header">
+        <h2>Check Email</h2>
+    </div>
+    <form method="post">
+        <div class="form-group" style="padding: 3px 20px">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" readonly="true">
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="padding: 5px 20px">
+            <a asp-action="Index" class="btn btn-primary">Back to List</a>
+            <button type="submit" class="btn" style="color: #fff;background: #346184">Check</button>
+        </div>
+
+    </form>
+</div>
