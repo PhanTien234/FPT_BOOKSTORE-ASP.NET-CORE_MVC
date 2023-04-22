@@ -21,9 +21,22 @@ html {
   position: relative;
   min-height: 100%;
 }
+.logo {
+	height: 40px;
+	width: auto;
+}
+
+.panel {
+	width: 90px;
+  height: auto;
+}
+
 
 body {
   margin-bottom: 60px;
+  background: url(../img/18062020_2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-web {
@@ -63,8 +76,8 @@ body {
   position: relative;
   width: 100%;
   height: 40px;
-  border-bottom: #162938 solid 1px;
   overflow: hidden;
+  border-bottom: #ffffff solid 1px;
 }
 
 .search-box label {
@@ -72,8 +85,8 @@ body {
   top: 50%;
   left: 5px;
   transform: translateY(-50%);
-  font-size: 1em;
-  color: #162938;
+  font-size: 0.8em;
+  color: #ffffff;
   font-weight: 500;
   pointer-events: none;
   transition: .5s;
@@ -85,13 +98,12 @@ body {
 }
 
 .search-box input {
-  width: 100%;
-  height: 100%;
+  width: 120px;
+  height: 40px;
   background: transparent;
   border: none;
   outline: none;
-  font-size: 1em;
-  color: #162938;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -105,7 +117,7 @@ input::-webkit-inner-spin-button {
   right: 8px;
   top: 5px;
   font-size: 1.2em;
-  color: #162938;
+  color: #fff;
   line-height: 35px;
   transform: scale(1.2);
 }
@@ -116,6 +128,19 @@ input::-webkit-inner-spin-button {
   outline: none;
   border-radius: 6px;
   cursor: 1em;
+  color: #fff;
+}
+
+.navbar {
+  background: #162938 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #fcf7a5 !important;
 }
 
 

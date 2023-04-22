@@ -1,105 +1,72 @@
 @model FPT_BOOKSTORE.VM.ShoppingCartVM
+
+
 <form method="post">
-    <br/>
+
     @if (Model.ListCarts.Any())
     {
-        <div class="backgroundWhiteBorder">
-            <div class="container">
-                <div class="card">
-                    <div class="card-header bg-dark text-light ml-0 row container">
-                        <div class="col-6">
-                            <i class="fa fa-shopping-cart"></i> &nbsp;
-                            Shopping Cart
-                        </div>
-                        <div class="col-6 text-right">
-                            <a asp-area="UnAuthenticated" asp-controller="Home" asp-action="Index" class="btn btn-outline-info btn-sm">Continue Shopping</a>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        @foreach (var item in Model.ListCarts)
-                        {
-                            
-                            <div class="row">
-                                <div class="d-none d-lg-block col-lg-1 text-center py-2">
-                                    <img src="@item.Book.ImgUrl" class="rounded" width="100%"/>
-                                </div>
-                                <div class="col-12 text-sm-center col-lg-6 text-lg-left">
-                                    <div class="d-flex">
-                                        <h5>
-                                            <strong>@item.Book.Title</strong>
-                                        </h5>
-                                        <div class="col-12 text-sm-center col-lg-6 text-lg-left">
-                                            <span class="badge badge-warning pt-2" style="height:30px;">@item.Book.Category.Name</span>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        <small>@item.Book.Description</small>
-                                    </p>
-                                </div>
-                                <div class="col-12 text-sm-center col-lg-5 text-lg-right row">
-                                    <div class="col-4 text-md-right d-flex justify-content-around" style="padding-top:5px;">
-                                        <div class="">
-                                            <strong>$ @item.Book.Price<span class="text-muted">x</span> @item.Count </strong>
-                                        </div>
-                                        <div class="">
-                                            <strong>
-                                                Total:  @{
-                                                            var bookPrice = item.Book.Price * item.Count;
-                                                            @bookPrice
-                                                        }
-                                            </strong>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 col-sm-4 col-lg-6">
-                                        <div class="float-right mx-1">
-                                            <a asp-action="plus" asp-route-cartId="@item.Id" class="btn btn-primary">
-                                                <i class="fas fa-plus"></i>
-                                            </a>
-                                        </div>
-                                        <div class="float-right mx-1">
-                                            <a asp-action="minus" asp-route-cartId="@item.Id" class="btn btn-danger">
-                                                <i class="fas fa-minus"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-2 col-sm-4 col-lg-2 text-right">
-                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"
-                                           onclick="return confirm('Do you wanna delete this?')">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr/>
-                        }
-                        <div class="row">
-                            <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
-                                <ul class="list-group">
-                                    <li class="list-group-item d-flex justify-content-between bg-light">
-                                        <span class="text-info"> Total ($)</span>
-                                        <strong class="text-info">$ <span id="txtOrderTotal">@Model.Order.Total</span></strong>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="card-footer row">
-                            <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
-                                <a asp-area="Authenticated" asp-controller="Carts" asp-action="Summary" class="btn btn-success form-control">Summary</a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="cart-detail-container">
+        <div class="cart-detail">
+            <div class="cart-detail-header">
+                <h2><ion-icon name="cart-outline"></ion-icon>Shopping Cart</h2>
+            </div>
+             @foreach (var item in Model.ListCarts)
+            {
+            <div class="cart-detail-product">
+                <div class="cart-detail-product-img" 
+                style="background: url(@item.Book.ImgUrl) no-repeat;
+                        background-position: center;
+                        background-size: cover;" >
+                    @* <img src="@item.Book.ImgUrl"/> *@
                 </div>
+                <div class="cart-detail-product-book">
+                    <h2>@item.Book.Title</h2>
+                    <hr>
+                    <p>Category: <b>@item.Book.Category.Name</b></p>
+                    <hr>
+                    <p style="width: 200px; overflow: hidden">@item.Book.Description</p>
+                    <hr>
+                    <strong>$ @item.Book.Price<span class="text-muted"> X </span> @item.Count </strong>
+                    <strong style="color: maroon;">
+                        =  @{
+                                    var bookPrice = item.Book.Price * item.Count;
+                                    @bookPrice
+                                } $
+                    </strong>
+                    <hr>
+                    
+                </div>
+                    <div class="cart-detail-edit">
+                        <a asp-action="plus" asp-route-cartId="@item.Id">
+                           <ion-icon name="add-circle-outline" style="color: maroon;"></ion-icon>
+                        </a>
+                        <a asp-action="minus" asp-route-cartId="@item.Id">
+                           <ion-icon name="remove-circle-outline" style="color: #090080;"></ion-icon>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.Id"  onclick="return confirm('Do you wanna delete this?')">
+                            <ion-icon name="trash-outline" style="color: #ff0e0e;"></ion-icon>
+                        </a>
+                    </div>
+            </div>
+            }
+            <div class="cart-detail-total">
+                    <span>Total ($): </span>
+                    <strong>$ <span id="txtOrderTotal" style="color: maroon">@Model.Order.Total</span></strong>
+            </div>
+            <div class="cart-detail-footer">
+                    <a asp-area="UnAuthenticated" asp-controller="Home" asp-action="Index" style="background: #10003c;" >Continue Shopping</a>
+                    <a asp-area="Authenticated" asp-controller="Carts" asp-action="Summary" style="background: #00b12f;">Summary</a>
             </div>
         </div>
+    </div>
     }
     else
     {
-        <div> There is no item in shopping cart </div>
+        <div style="color :white"> There is no item in shopping cart </div>
     }
+    
 </form>
-
+ 
 @section Scripts{
     <script>
     function Delete(id){

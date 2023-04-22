@@ -5,36 +5,38 @@
     <script>
         setTimeout(function() {
             $("#addCartMessage").fadeOut("slow");
-        }, 5000);
+        }, 3000);
     </script>
 }
 
 <div class="row pb-3 backgroundWhite">
+    <img src="../img/panel.png">
     @foreach (var product in Model)
     {
         <div class="col-lg-3 col-md-6">
             <div class="row p-2">
-                <div class="home-product-item col-12 p-1" style="border:1px solid #008cba; border-radius: 5px;">
-                    <div class="card" style="border:0px;">
-                        <img src="@product.ImgUrl" class="card-img-top rounded border"/>
-                        <div class="pl-1 pt-2">
-                            <p class="card-title h5" style="min-height: 48px">
-                                <b style="color:#2c3e50">@product.Title</b>
-                            </p>
-                            <p class="card-title text-primary">by <b>@product.Author</b></p>
-                        </div>
-                        <div style="padding-left:5px;">
-                            <p>@product.Category.Name</p>
-                        </div>
-                        <div style="padding-left:5px;">
-                            <p style="color:maroon">Price: <b class="">$ @product.Price</b></p>
-                        </div>
+                <div class="home-product-item">
+                    <div class="product-img" 
+                        style="background: url(@product.ImgUrl) no-repeat;
+                        background-position: center;
+                        background-size: cover;">
                     </div>
-                    <div >
-                        <a asp-controller="Home"
-                            asp-action="Details" class="btn-primary btn form-control" 
-                           asp-route-id="@product.Id">Detail</a>
+                    <div class="product-title">
+                        <p><b>@product.Title</b></p>
                     </div>
+                    <div class="product-author">
+                        <p>Author: <b>@product.Author</b></p>
+                    </div>
+                    <div class="product-category">
+                        <p>Category: @product.Category.Name</p>
+                    </div>
+                    <div class="product-price">
+                        <p style="color:maroon">Price:<b>$ @product.Price</b></p>
+                    </div>
+                    <div class="btn-product-detail">
+                        <a asp-controller="Home" asp-action="Details" asp-route-id="@product.Id">Detail</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -54,23 +56,3 @@
         </ul>
     </nav>
 </div>
-
-<style>
-    .home-product-item {
-        display: block;
-        position: relative;
-        margin-top: 10px;
-        background-color: #fff;
-        border-radius: 2px;
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-        transition: transform ease-in 0.1s;
-        will-change: transform;
-        border: 1px solid transparent;
-    }
-    
-    .home-product-item:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
-        border: 1px solid red !important;
-    }
-</style>
