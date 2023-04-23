@@ -172,6 +172,7 @@ ion-icon {
     width: auto;
     height: 250px;
     background: #fff;
+    margin-bottom: 40px;
 }
 
 .cart-detail-product-img {
@@ -363,12 +364,16 @@ ion-icon {
     flex-wrap: wrap;
 }
 .btn-category-edit a{
-    margin: 5px 10px;
-    text-decoration: underline;
+    margin-left: 10px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 0.5em;
 }
 
 .btn-category-edit a:hover{
-    text-decoration: none;
     transform: scale(1.1);
    
 }

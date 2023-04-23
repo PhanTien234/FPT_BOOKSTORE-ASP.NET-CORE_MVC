@@ -7,13 +7,20 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="HelpScreen">
+            <span class="icon">
+                <ion-icon name="help-circle-outline" style="transform: translateY(2px); font-size: 1.4em;"></ion-icon>
+            </span>
+        </a>
+    </li>
+    <li class="nav-item">
         <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
     </li>
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
             <button  type="submit" class="nav-link btn btn-link" style="color: rgb(94, 0, 0);">
                 <span class="icon">
-                    <ion-icon name="log-out-outline" style="transform: scale(1.4)"></ion-icon>
+                    <ion-icon name="log-out-outline" s style="transform: translateY(1px); font-size: 1.4em;"></ion-icon>
                 </span>
             </button>
         </form>
