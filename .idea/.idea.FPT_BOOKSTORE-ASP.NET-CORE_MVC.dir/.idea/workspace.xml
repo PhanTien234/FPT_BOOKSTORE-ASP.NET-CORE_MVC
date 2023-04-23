@@ -10,200 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d195f4c-9ee8-4ad4-b2ef-e48ecca6501e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/manager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/18062020_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/48990615-733a-4e8b-9613-009b37c18051.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/56acc54c-a444-4c4e-8724-e6d529bead55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/6c0eedc3-16d7-4c48-bb23-1cc5d8c3f4e8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/803ac36b-849f-45fb-b2de-c587e25c184d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/847fff05-2787-4f1f-a982-84c58761fa82.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/books/daa79c7a-62d4-4582-8bf3-02a8015a4945.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/transistion.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/104266024_635416077180442_6121354521563628311_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/104996164_578551436137195_7201996370032710337_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/117195966_300774571189457_3859859977714512364_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/117386989_1177176259322182_5483878685205812727_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/117601006_594413584796231_7820359009507252925_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/118158785_222928775828619_7569061295254078276_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/118652093_3273136776112097_8709947329409007480_n (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/120252035_1679970929049800_9112374377823891706_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/122059388_385839379099065_5000665031607974671_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/122110244_3588819827846522_5117637918955536013_n (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/122110244_3588819827846522_5117637918955536013_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/122119602_1783080078520433_6259583761990282676_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/125797882_860514048112829_2654491394169126063_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/126908293_448474629887440_917750439355306688_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/127006548_140773907795774_4079230499482450771_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/144639939_1598750813653581_6491567223740187950_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/153425328_3742311522527296_3734797214379437682_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/154511978_942100973226735_1250190040107540817_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/158742600_224238289398862_7392493120142342507_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/161543971_1353276885013834_8751887732052984305_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/167853522_2716668505312374_2703912463065078726_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/174579082_292064782587050_82923776033824566_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/176031344_507531226922089_3298946526008925696_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/18062020_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/18062020_201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/183803408_1862413987273471_3627396785723819904_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/187550124_470512874049900_6422533674901713716_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/190467350_122733723318461_7090710793953029509_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/193235341_1512966422379423_2893393330651900833_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/193240893_820689492180469_550790977605239964_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/193737919_155681706535798_4616345354138187743_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/194268215_317605223232984_6805469764903912327_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/195140776_256889532856819_5844452428024244190_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/197261233_899005580994789_2642563607295034129_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/201933500_1969781033172501_5671601705513392116_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/202042dbb8eb-e536-4ddf-bced-f0ab109c10d4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/202468775_3785500435008848_5080928342758179726_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/213767312_143311971219594_5178607261623611724_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/214074395_992477534912669_529784217159210715_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/218917979_1903261603168298_622180345583257434_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/222712092_970521377082233_4229371667311186338_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/230636562_1207246203114388_7263750773492842320_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/232687276_3710800059145735_4264178805471532682_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/234227188_564284601682239_2184066278551333522_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/234512188_406711920804065_2980404425991668295_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/235818200_3721496934617591_3005921636106308148_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/238658114_387247776095794_8236514469434010955_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/240676551_896001181295790_1068379103015435832_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/240754931_294263169130553_4720461486693078807_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/240958878_1012009036234774_3258961176352231133_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/241207608_3780125982088019_6118352795502614225_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/241807148_115156577558074_5933084965388475680_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/242491540_361142985700688_7278469434594495671_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/244052894_1952161954965621_249203313541133785_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/244810264_344035010830311_3106918883347725425_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/245393586_593986205371999_2012924537002506216_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/271131010_1120570842017483_7495313365535145619_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/274471440_984832422147562_3219429172288914810_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/276086455_644560573272136_3448002464653723804_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/277813775_155598510263951_2916221285490220273_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/278073242_1043363036538693_94619331342056191_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/279105559_506800251147962_3972938135456588162_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/284559745_1664524667261404_3480380215563064604_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/286615756_190310436668239_1544915253832674512_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/287480306_175880448173508_4288273596622060449_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/288478931_177999771264460_3785551919397727054_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/297339628_744567366797194_443178380989312624_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/302166651_1444337106085893_798112574981303959_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/305833723_577335120842140_1331006036019493527_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/315558305_207560491673798_7185153298354188643_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/321988257_522269609863546_7839866442019895646_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/322252532_881430579956958_9190748050595506368_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/327209727_499533132354145_3100819367507931245_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/329177384_609162574335140_1693840120441490253_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/3327d95cea372d697426.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/33_thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/340344506_6220189461357247_535489820097986011_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/3474184888c55a633a91c98813252742_tn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/42943070.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/51aJ4F9fJVL._AC_SY355_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/59fb58e3a469e13d5d588c298813b4c6jerry-mouse-crying-in-tears.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/63d4c026c181357e6c08ada62db59b8b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/643a5f7b7e426eae31ed79fe8d263e62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/65e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/69751101_555323451877169_2207437629060808704_n.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/72204055_1026897467642481_1530521869491372032_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/787745.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/7b9f953b405dd8787310414e42c0ed11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/95950071_10158346755383279_15865003601035264_o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/99424518_2675603579353084_8736183820476219392_o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/ANIME-PICTURES.NET_-_133101-2427x1500-original-neyagi-single-long+hair-highres-wide+image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/Anh-7-15375233311681590492299.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/DSC01284.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/DSC01284_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/DSC01293.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/DSC01319.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/DSC01319_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/DSC01322.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/Dx-Er7WUUAA9mqU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/EXy77ZxX0AEEt8o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/FB_IMG_1572684435165.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/FB_IMG_1572734016948.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/FB_IMG_1572945107525.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/FB_IMG_1573583160211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/FB_IMG_1574875623808.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/FB_IMG_1579071369354.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/FB_IMG_1585790702472.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/Onmyoji VN_2019-10-10-21-00-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/Screenshot_20191001-002504_Onmyoji VN.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/avatercv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/bomman-bomman-dap-ban.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/c280f0e8720b5b4c8551d2d86878421f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/dampfrankcaiman-sizerestricted-15965190821921537107394.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/dau-mam-cho-cai-bong-ne-bot-dau-long-nghe.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/dau-o-day-nay-mat-vang-cuoi-than-thien-dbdae10189e75a82e55e11213b2c1c16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/e792b95d948510b8a050b3530d9a3c15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/ec0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/eff454e95c14945a3ae14a9dfc4a4607.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/f45acd1033ded8c4e20782c4b3649131.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/fptlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/hqdefault.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/iindf0l0v4q41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/inu_ads.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/jakpost.travel-great-wave-off-kanagawa-2185986.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/khong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/large_1623204686293.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/maxresdefault.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/meo-vang-ngua-hai-tay-xin-an.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/news01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/ql9uvf9ppqv61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/received_676289573368349.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/shut-up-and-take-my-money.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/sonphong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/sonpong1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/tải xuống.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/tải xuống.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/tải xuống.jgp.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/teemo-lol-beemo-splash-art-uhdpaper.com-4K-297.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/tieu-su-kha-banh-1967-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/uong-mot-tach-tra-cho-tam-hon-thanh-tinh-28fef16682b568b8ee5947cc12e0096f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/vit-lay-keo-dinh-cat-co-tu-tu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/vit-trang-cam-dao-sang-choang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/wallpaperflare.com_wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/www_tiengdong_com-meme-meo-cam-dao-dung-bang-2-chan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/img/Ảnh/z4bxo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPT_BOOKSTORE-ASP.NET-CORE_MVC.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Books/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Books/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Books/Upsert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Books/Upsert.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/OrderConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/OrderConfirmation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Summary.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Carts/Summary.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Category/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Management/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Management/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/ConfirmEmail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/ConfirmEmail.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/EditUser.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/EditUser.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Requests.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/Authenticated/Views/Users/Requests.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/Home/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/Home/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/FPT_BOOKSTORE.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/FPT_BOOKSTORE.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/FPT_BOOKSTORE.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.FPT_BOOKSTORE.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/staticwebassets/msbuild.FPT_BOOKSTORE.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/UnAuthenticated/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,32 +35,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\RiRi\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\RiRi\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\RiRi\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\PHANMINHTIEN\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\PHANMINHTIEN\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\PHANMINHTIEN\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="LaunchSettings" factoryName=".NET Launch Settings Profile" nameIsGenerated="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FPT_BOOKSTORE.csproj" />
@@ -290,6 +99,9 @@
       <workItem from="1682039238085" duration="5445000" />
       <workItem from="1682054221427" duration="9779000" />
       <workItem from="1682126203196" duration="4749000" />
+      <workItem from="1682234393494" duration="3146000" />
+      <workItem from="1682252672455" duration="1335000" />
+      <workItem from="1682257611805" duration="376000" />
     </task>
     <servers />
   </component>
