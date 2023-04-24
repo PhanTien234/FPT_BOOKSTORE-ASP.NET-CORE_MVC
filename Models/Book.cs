@@ -28,5 +28,8 @@ public class Book
     // link to category
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
-    
+
+
+    public string CreateBy { get; set; }
 }
+    

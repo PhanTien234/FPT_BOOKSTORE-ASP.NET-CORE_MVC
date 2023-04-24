@@ -210,7 +210,8 @@ namespace FPT_BOOKSTORE.Migrations
                     ImgUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     NuPages = table.Column<int>(type: "int", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false)
+                    CategoryId = table.Column<int>(type: "int", nullable: false),
+                    CreateBy = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using ExcelDataReader;
 using FPT_BOOKSTORE.Data;
 using FPT_BOOKSTORE.Models;
@@ -30,8 +31,17 @@ public class BooksController : Controller
         [HttpGet]
         public IActionResult Index()
         {
+            // lay id cua user
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            var currentUserId = claim.Value;
+            
             var books = _context.Books
+                .Where(x => x.CreateBy == currentUserId)
                 .Include(x => x.Category).ToList();
+            
+            
+            
             return View(books);
         }
 
@@ -58,7 +68,7 @@ public class BooksController : Controller
 
             bookVm.Categories = CategorySelectListItems();
 
-
+            
             if (id == null)
             {
                 bookVm.Book = new Book();
@@ -116,6 +126,12 @@ public class BooksController : Controller
 
             if (bookVm.Book.Id == 0 || bookVm.Book.Id == null)
             {
+                // lay id cua user
+                var claimsIdentity = (ClaimsIdentity)User.Identity;
+                var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+                var currentUserId = claim.Value;
+                bookVm.Book.CreateBy = currentUserId;
+                
                 _context.Books.Add(bookVm.Book);
             }
             else
