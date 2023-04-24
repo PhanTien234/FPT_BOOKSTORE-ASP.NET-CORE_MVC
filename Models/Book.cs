@@ -13,14 +13,16 @@ public class Book
     public string Description { get; set; }
     [Required]
     public double Price { get; set; }
-    [Required] 
+    [Range(0.01, double.MaxValue, ErrorMessage = "Price must be greater than 0")]
+    [Required(ErrorMessage = "Price is required")]
     public string Author { get; set; }
     
     // [Required]
     public string ImgUrl { get; set; }
     [Required]
     public int NuPages { get; set; }
-    [Required]
+    [Range(1, int.MaxValue, ErrorMessage = "Quantity must be greater than 0")]
+    [Required(ErrorMessage = "Quantity is required")]
     public int Quantity { get; set; }
     [Required]
     public int CategoryId { get; set; }

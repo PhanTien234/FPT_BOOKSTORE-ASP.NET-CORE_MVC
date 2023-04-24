@@ -12,7 +12,9 @@ public class Cart
     public string UserId { get; set; }
     [Required]
     public int BookId { get; set; }
-    [Required]
+
+    [Range(1, int.MaxValue, ErrorMessage = "Count must be greater than 0")]
+    [Required(ErrorMessage = "Count is required")]
     public int Count { get; set; }
     
     [ForeignKey("UserId")]
