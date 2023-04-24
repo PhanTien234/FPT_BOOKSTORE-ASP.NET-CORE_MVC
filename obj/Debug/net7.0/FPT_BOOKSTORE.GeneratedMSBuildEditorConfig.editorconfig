@@ -9,259 +9,259 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FPT_BOOKSTORE
 build_property.RootNamespace = FPT_BOOKSTORE
-build_property.ProjectDir = C:\Users\RiRi\OneDrive\Máy tính\FPT_BOOKSTORE-ASP.NET-CORE_MVC\
+build_property.ProjectDir = C:\Users\PHANMINHTIEN\Downloads\FPT_BOOKSTORE-ASP.NET-CORE_MVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\RiRi\OneDrive\Máy tính\FPT_BOOKSTORE-ASP.NET-CORE_MVC
+build_property.MSBuildProjectDirectory = C:\Users\PHANMINHTIEN\Downloads\FPT_BOOKSTORE-ASP.NET-CORE_MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Create.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXRlZ29yeVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Delete.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXRlZ29yeVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Details.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXRlZ29yeVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Edit.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXRlZ29yeVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Index.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXRlZ29yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/Index.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVW5BdXRoZW50aWNhdGVkXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/Privacy.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVW5BdXRoZW50aWNhdGVkXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Books/Index.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xCb29rc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Books/Upsert.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Books/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xCb29rc1xVcHNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Carts/Index.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Carts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXJ0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Carts/OrderConfirmation.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Carts/OrderConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXJ0c1xPcmRlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Carts/Summary.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Carts/Summary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xDYXJ0c1xTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Management/Detail.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Management/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xNYW5hZ2VtZW50XERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Management/Index.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Management/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xNYW5hZ2VtZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/ConfirmEmail.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xVc2Vyc1xDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/EditUser.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xVc2Vyc1xFZGl0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/Index.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xVc2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/Requests.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/Requests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xVc2Vyc1xSZXF1ZXN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/ResetPassword.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/Users/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xVc2Vyc1xSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/_ViewImports.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/_ViewStart.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Authenticated/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQXV0aGVudGljYXRlZFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/Details.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVW5BdXRoZW50aWNhdGVkXFZpZXdzXEhvbWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/HelpScreen.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/Home/HelpScreen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVW5BdXRoZW50aWNhdGVkXFZpZXdzXEhvbWVcSGVscFNjcmVlbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/_ViewImports.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVW5BdXRoZW50aWNhdGVkXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/_ViewStart.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Areas/UnAuthenticated/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVW5BdXRoZW50aWNhdGVkXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/Error.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_StatusMessenger.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_StatusMessenger.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdGF0dXNNZXNzZW5nZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/_ViewImports.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/_ViewStart.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/RiRi/OneDrive/Máy tính/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_Layout.cshtml]
+[C:/Users/PHANMINHTIEN/Downloads/FPT_BOOKSTORE-ASP.NET-CORE_MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vhw4v7bqwu

@@ -1,1031 +1,1031 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FPT_BOOKSTORE.bundle.scp.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FPT_BOOKSTORE.bundle.scp.css",
       "PackagePath": "staticwebassets\\FPT_BOOKSTORE.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\css\\login-register.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\css\\login-register.css",
       "PackagePath": "staticwebassets\\css\\login-register.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\css\\manager.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\css\\manager.css",
       "PackagePath": "staticwebassets\\css\\manager.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\18062020_2.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\18062020_2.jpg",
       "PackagePath": "staticwebassets\\img\\18062020_2.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\2209_w015_n003_991b_p15_991.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\2209_w015_n003_991b_p15_991.jpg",
       "PackagePath": "staticwebassets\\img\\2209_w015_n003_991b_p15_991.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\background.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\background.jpg",
       "PackagePath": "staticwebassets\\img\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\01e0a214-f9ed-4308-a7dd-a0ee43a9b599.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\01e0a214-f9ed-4308-a7dd-a0ee43a9b599.jpg",
       "PackagePath": "staticwebassets\\img\\books\\01e0a214-f9ed-4308-a7dd-a0ee43a9b599.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\10591a3f-5eda-4564-8f3d-dc4d8a66dde4.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\10591a3f-5eda-4564-8f3d-dc4d8a66dde4.jpg",
       "PackagePath": "staticwebassets\\img\\books\\10591a3f-5eda-4564-8f3d-dc4d8a66dde4.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\1a6713fc-f822-4590-ab76-becec31a8509.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\1a6713fc-f822-4590-ab76-becec31a8509.jpg",
       "PackagePath": "staticwebassets\\img\\books\\1a6713fc-f822-4590-ab76-becec31a8509.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\1b9a4028-b6a8-4404-b135-abe8005690ed.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\1b9a4028-b6a8-4404-b135-abe8005690ed.jpg",
       "PackagePath": "staticwebassets\\img\\books\\1b9a4028-b6a8-4404-b135-abe8005690ed.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\1d93d4c4-3976-4bc2-b474-a10d85558373.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\1d93d4c4-3976-4bc2-b474-a10d85558373.jpg",
       "PackagePath": "staticwebassets\\img\\books\\1d93d4c4-3976-4bc2-b474-a10d85558373.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\317acdcf-5132-4d63-aacc-59728ff8d1ec.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\317acdcf-5132-4d63-aacc-59728ff8d1ec.jpg",
       "PackagePath": "staticwebassets\\img\\books\\317acdcf-5132-4d63-aacc-59728ff8d1ec.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\346126ec-6cda-44be-9abe-3bfdc478e705.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\346126ec-6cda-44be-9abe-3bfdc478e705.jpg",
       "PackagePath": "staticwebassets\\img\\books\\346126ec-6cda-44be-9abe-3bfdc478e705.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\34eda5a9-e35b-4b3c-9f07-67b509c689bd.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\34eda5a9-e35b-4b3c-9f07-67b509c689bd.jpg",
       "PackagePath": "staticwebassets\\img\\books\\34eda5a9-e35b-4b3c-9f07-67b509c689bd.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\3997d608-6ee3-400b-89aa-b20e323bdff4.gif",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\3997d608-6ee3-400b-89aa-b20e323bdff4.gif",
       "PackagePath": "staticwebassets\\img\\books\\3997d608-6ee3-400b-89aa-b20e323bdff4.gif"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\3a788b8a-85cf-4dd5-ab67-c92f1989f5b2.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\3a788b8a-85cf-4dd5-ab67-c92f1989f5b2.jpg",
       "PackagePath": "staticwebassets\\img\\books\\3a788b8a-85cf-4dd5-ab67-c92f1989f5b2.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\4664254f-8e98-43a8-8eeb-369b08b47fd6.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\4664254f-8e98-43a8-8eeb-369b08b47fd6.jpg",
       "PackagePath": "staticwebassets\\img\\books\\4664254f-8e98-43a8-8eeb-369b08b47fd6.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\48990615-733a-4e8b-9613-009b37c18051.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\48990615-733a-4e8b-9613-009b37c18051.jpg",
       "PackagePath": "staticwebassets\\img\\books\\48990615-733a-4e8b-9613-009b37c18051.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\56acc54c-a444-4c4e-8724-e6d529bead55.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\56acc54c-a444-4c4e-8724-e6d529bead55.jpg",
       "PackagePath": "staticwebassets\\img\\books\\56acc54c-a444-4c4e-8724-e6d529bead55.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\5da13b09-2a16-4444-88a8-dfdd81a0f3c3.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\5da13b09-2a16-4444-88a8-dfdd81a0f3c3.jpg",
       "PackagePath": "staticwebassets\\img\\books\\5da13b09-2a16-4444-88a8-dfdd81a0f3c3.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\62d7ac7d-cca7-4ff3-9daf-f24cbdbe2cc3.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\62d7ac7d-cca7-4ff3-9daf-f24cbdbe2cc3.jpg",
       "PackagePath": "staticwebassets\\img\\books\\62d7ac7d-cca7-4ff3-9daf-f24cbdbe2cc3.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\633bed8f-3ecf-4ae4-a49c-4fbf9dc10669.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\633bed8f-3ecf-4ae4-a49c-4fbf9dc10669.jpg",
       "PackagePath": "staticwebassets\\img\\books\\633bed8f-3ecf-4ae4-a49c-4fbf9dc10669.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\6681b908-4211-4a66-974e-59d790165e5d.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\6681b908-4211-4a66-974e-59d790165e5d.jpg",
       "PackagePath": "staticwebassets\\img\\books\\6681b908-4211-4a66-974e-59d790165e5d.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg",
       "PackagePath": "staticwebassets\\img\\books\\677aab0f-2e3f-419b-880a-e87dc7e44587.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\6788b63a-942c-4c5f-a4da-533cd7283f10.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\6788b63a-942c-4c5f-a4da-533cd7283f10.jpg",
       "PackagePath": "staticwebassets\\img\\books\\6788b63a-942c-4c5f-a4da-533cd7283f10.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\679cef18-367b-4f62-8b16-65935b48bae5.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\679cef18-367b-4f62-8b16-65935b48bae5.jpg",
       "PackagePath": "staticwebassets\\img\\books\\679cef18-367b-4f62-8b16-65935b48bae5.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\67b5bd4c-6bcb-4252-b1ea-904c548c05ff.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\67b5bd4c-6bcb-4252-b1ea-904c548c05ff.jpg",
       "PackagePath": "staticwebassets\\img\\books\\67b5bd4c-6bcb-4252-b1ea-904c548c05ff.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\6c0eedc3-16d7-4c48-bb23-1cc5d8c3f4e8.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\6c0eedc3-16d7-4c48-bb23-1cc5d8c3f4e8.jpg",
       "PackagePath": "staticwebassets\\img\\books\\6c0eedc3-16d7-4c48-bb23-1cc5d8c3f4e8.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\73533332-7658-486c-b882-7866d96e9f7e.PNG",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\73533332-7658-486c-b882-7866d96e9f7e.PNG",
       "PackagePath": "staticwebassets\\img\\books\\73533332-7658-486c-b882-7866d96e9f7e.PNG"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\78c4dec0-de5b-44df-b9d7-c86bd0c82bb4.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\78c4dec0-de5b-44df-b9d7-c86bd0c82bb4.jpg",
       "PackagePath": "staticwebassets\\img\\books\\78c4dec0-de5b-44df-b9d7-c86bd0c82bb4.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\7a978cc7-2fba-41bc-891a-aa181ac55d3e.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\7a978cc7-2fba-41bc-891a-aa181ac55d3e.jpg",
       "PackagePath": "staticwebassets\\img\\books\\7a978cc7-2fba-41bc-891a-aa181ac55d3e.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\803ac36b-849f-45fb-b2de-c587e25c184d.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\803ac36b-849f-45fb-b2de-c587e25c184d.jpg",
       "PackagePath": "staticwebassets\\img\\books\\803ac36b-849f-45fb-b2de-c587e25c184d.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\847fff05-2787-4f1f-a982-84c58761fa82.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\847fff05-2787-4f1f-a982-84c58761fa82.jpg",
       "PackagePath": "staticwebassets\\img\\books\\847fff05-2787-4f1f-a982-84c58761fa82.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\97bd5958-a24a-4fe2-86b7-eca308370752.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\97bd5958-a24a-4fe2-86b7-eca308370752.jpg",
       "PackagePath": "staticwebassets\\img\\books\\97bd5958-a24a-4fe2-86b7-eca308370752.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\9acae9b9-96cd-4f42-bce7-56e302ef19f3.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\9acae9b9-96cd-4f42-bce7-56e302ef19f3.jpg",
       "PackagePath": "staticwebassets\\img\\books\\9acae9b9-96cd-4f42-bce7-56e302ef19f3.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\9c26899d-b335-4d08-bf3b-29bc45b57ddb.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\9c26899d-b335-4d08-bf3b-29bc45b57ddb.jpg",
       "PackagePath": "staticwebassets\\img\\books\\9c26899d-b335-4d08-bf3b-29bc45b57ddb.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\bc87adf8-2833-4953-8df6-00f450f4c668.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\bc87adf8-2833-4953-8df6-00f450f4c668.jpg",
       "PackagePath": "staticwebassets\\img\\books\\bc87adf8-2833-4953-8df6-00f450f4c668.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\c8d43f3e-24b6-4415-abda-bf6a7e7504f7.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\c8d43f3e-24b6-4415-abda-bf6a7e7504f7.jpg",
       "PackagePath": "staticwebassets\\img\\books\\c8d43f3e-24b6-4415-abda-bf6a7e7504f7.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\cb25ab74-9c92-4f12-92ad-2edbaea4d226.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\cb25ab74-9c92-4f12-92ad-2edbaea4d226.jpg",
       "PackagePath": "staticwebassets\\img\\books\\cb25ab74-9c92-4f12-92ad-2edbaea4d226.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\ccabae2c-ed33-4eb4-849f-b9dddc790458.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\ccabae2c-ed33-4eb4-849f-b9dddc790458.jpg",
       "PackagePath": "staticwebassets\\img\\books\\ccabae2c-ed33-4eb4-849f-b9dddc790458.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\d400232a-20b0-4d60-b9f5-25004dfbf281.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\d400232a-20b0-4d60-b9f5-25004dfbf281.jpg",
       "PackagePath": "staticwebassets\\img\\books\\d400232a-20b0-4d60-b9f5-25004dfbf281.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\daa79c7a-62d4-4582-8bf3-02a8015a4945.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\daa79c7a-62d4-4582-8bf3-02a8015a4945.jpg",
       "PackagePath": "staticwebassets\\img\\books\\daa79c7a-62d4-4582-8bf3-02a8015a4945.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\dc80e9b5-506b-4ae1-aad7-697773711be3.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\dc80e9b5-506b-4ae1-aad7-697773711be3.jpg",
       "PackagePath": "staticwebassets\\img\\books\\dc80e9b5-506b-4ae1-aad7-697773711be3.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\dd69cf28-61b6-4155-b8bf-2e68a805aa71.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\dd69cf28-61b6-4155-b8bf-2e68a805aa71.jpg",
       "PackagePath": "staticwebassets\\img\\books\\dd69cf28-61b6-4155-b8bf-2e68a805aa71.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\f73b3fc1-aa8e-4748-a710-16f37f0bb55e.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\books\\f73b3fc1-aa8e-4748-a710-16f37f0bb55e.png",
       "PackagePath": "staticwebassets\\img\\books\\f73b3fc1-aa8e-4748-a710-16f37f0bb55e.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\login-register.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\login-register.jpg",
       "PackagePath": "staticwebassets\\img\\login-register.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\login.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\login.png",
       "PackagePath": "staticwebassets\\img\\login.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\logoFPT.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\logoFPT.png",
       "PackagePath": "staticwebassets\\img\\logoFPT.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\panel.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\panel.png",
       "PackagePath": "staticwebassets\\img\\panel.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\transistion.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\transistion.jpg",
       "PackagePath": "staticwebassets\\img\\transistion.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\104266024_635416077180442_6121354521563628311_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\104266024_635416077180442_6121354521563628311_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\104266024_635416077180442_6121354521563628311_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\104996164_578551436137195_7201996370032710337_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\104996164_578551436137195_7201996370032710337_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\104996164_578551436137195_7201996370032710337_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\117195966_300774571189457_3859859977714512364_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\117195966_300774571189457_3859859977714512364_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\117195966_300774571189457_3859859977714512364_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\117386989_1177176259322182_5483878685205812727_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\117386989_1177176259322182_5483878685205812727_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\117386989_1177176259322182_5483878685205812727_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\117601006_594413584796231_7820359009507252925_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\117601006_594413584796231_7820359009507252925_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\117601006_594413584796231_7820359009507252925_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\118158785_222928775828619_7569061295254078276_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\118158785_222928775828619_7569061295254078276_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\118158785_222928775828619_7569061295254078276_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\118652093_3273136776112097_8709947329409007480_n (1).jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\118652093_3273136776112097_8709947329409007480_n (1).jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\118652093_3273136776112097_8709947329409007480_n (1).jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\120252035_1679970929049800_9112374377823891706_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\120252035_1679970929049800_9112374377823891706_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\120252035_1679970929049800_9112374377823891706_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122059388_385839379099065_5000665031607974671_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122059388_385839379099065_5000665031607974671_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\122059388_385839379099065_5000665031607974671_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122110244_3588819827846522_5117637918955536013_n (1).jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122110244_3588819827846522_5117637918955536013_n (1).jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\122110244_3588819827846522_5117637918955536013_n (1).jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122110244_3588819827846522_5117637918955536013_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122110244_3588819827846522_5117637918955536013_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\122110244_3588819827846522_5117637918955536013_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122119602_1783080078520433_6259583761990282676_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\122119602_1783080078520433_6259583761990282676_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\122119602_1783080078520433_6259583761990282676_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\125797882_860514048112829_2654491394169126063_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\125797882_860514048112829_2654491394169126063_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\125797882_860514048112829_2654491394169126063_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\126908293_448474629887440_917750439355306688_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\126908293_448474629887440_917750439355306688_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\126908293_448474629887440_917750439355306688_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\127006548_140773907795774_4079230499482450771_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\127006548_140773907795774_4079230499482450771_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\127006548_140773907795774_4079230499482450771_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\144639939_1598750813653581_6491567223740187950_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\144639939_1598750813653581_6491567223740187950_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\144639939_1598750813653581_6491567223740187950_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\153425328_3742311522527296_3734797214379437682_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\153425328_3742311522527296_3734797214379437682_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\153425328_3742311522527296_3734797214379437682_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\154511978_942100973226735_1250190040107540817_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\154511978_942100973226735_1250190040107540817_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\154511978_942100973226735_1250190040107540817_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\158742600_224238289398862_7392493120142342507_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\158742600_224238289398862_7392493120142342507_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\158742600_224238289398862_7392493120142342507_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\161543971_1353276885013834_8751887732052984305_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\161543971_1353276885013834_8751887732052984305_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\161543971_1353276885013834_8751887732052984305_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\167853522_2716668505312374_2703912463065078726_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\167853522_2716668505312374_2703912463065078726_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\167853522_2716668505312374_2703912463065078726_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\174579082_292064782587050_82923776033824566_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\174579082_292064782587050_82923776033824566_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\174579082_292064782587050_82923776033824566_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\176031344_507531226922089_3298946526008925696_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\176031344_507531226922089_3298946526008925696_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\176031344_507531226922089_3298946526008925696_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\18062020_2.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\18062020_2.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\18062020_2.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\18062020_201.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\18062020_201.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\18062020_201.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\183803408_1862413987273471_3627396785723819904_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\183803408_1862413987273471_3627396785723819904_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\183803408_1862413987273471_3627396785723819904_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\187550124_470512874049900_6422533674901713716_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\187550124_470512874049900_6422533674901713716_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\187550124_470512874049900_6422533674901713716_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\190467350_122733723318461_7090710793953029509_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\190467350_122733723318461_7090710793953029509_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\190467350_122733723318461_7090710793953029509_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\193235341_1512966422379423_2893393330651900833_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\193235341_1512966422379423_2893393330651900833_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\193235341_1512966422379423_2893393330651900833_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\193240893_820689492180469_550790977605239964_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\193240893_820689492180469_550790977605239964_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\193240893_820689492180469_550790977605239964_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\193737919_155681706535798_4616345354138187743_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\193737919_155681706535798_4616345354138187743_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\193737919_155681706535798_4616345354138187743_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\194268215_317605223232984_6805469764903912327_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\194268215_317605223232984_6805469764903912327_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\194268215_317605223232984_6805469764903912327_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\195140776_256889532856819_5844452428024244190_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\195140776_256889532856819_5844452428024244190_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\195140776_256889532856819_5844452428024244190_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\197261233_899005580994789_2642563607295034129_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\197261233_899005580994789_2642563607295034129_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\197261233_899005580994789_2642563607295034129_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\201933500_1969781033172501_5671601705513392116_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\201933500_1969781033172501_5671601705513392116_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\201933500_1969781033172501_5671601705513392116_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\202042dbb8eb-e536-4ddf-bced-f0ab109c10d4.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\202042dbb8eb-e536-4ddf-bced-f0ab109c10d4.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\202042dbb8eb-e536-4ddf-bced-f0ab109c10d4.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\202468775_3785500435008848_5080928342758179726_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\202468775_3785500435008848_5080928342758179726_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\202468775_3785500435008848_5080928342758179726_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\213767312_143311971219594_5178607261623611724_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\213767312_143311971219594_5178607261623611724_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\213767312_143311971219594_5178607261623611724_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\214074395_992477534912669_529784217159210715_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\214074395_992477534912669_529784217159210715_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\214074395_992477534912669_529784217159210715_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\218917979_1903261603168298_622180345583257434_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\218917979_1903261603168298_622180345583257434_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\218917979_1903261603168298_622180345583257434_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\222712092_970521377082233_4229371667311186338_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\222712092_970521377082233_4229371667311186338_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\222712092_970521377082233_4229371667311186338_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\230636562_1207246203114388_7263750773492842320_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\230636562_1207246203114388_7263750773492842320_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\230636562_1207246203114388_7263750773492842320_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\232687276_3710800059145735_4264178805471532682_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\232687276_3710800059145735_4264178805471532682_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\232687276_3710800059145735_4264178805471532682_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\234227188_564284601682239_2184066278551333522_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\234227188_564284601682239_2184066278551333522_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\234227188_564284601682239_2184066278551333522_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\234512188_406711920804065_2980404425991668295_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\234512188_406711920804065_2980404425991668295_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\234512188_406711920804065_2980404425991668295_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\235818200_3721496934617591_3005921636106308148_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\235818200_3721496934617591_3005921636106308148_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\235818200_3721496934617591_3005921636106308148_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\238658114_387247776095794_8236514469434010955_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\238658114_387247776095794_8236514469434010955_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\238658114_387247776095794_8236514469434010955_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\240676551_896001181295790_1068379103015435832_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\240676551_896001181295790_1068379103015435832_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\240676551_896001181295790_1068379103015435832_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\240754931_294263169130553_4720461486693078807_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\240754931_294263169130553_4720461486693078807_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\240754931_294263169130553_4720461486693078807_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\240958878_1012009036234774_3258961176352231133_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\240958878_1012009036234774_3258961176352231133_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\240958878_1012009036234774_3258961176352231133_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\241207608_3780125982088019_6118352795502614225_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\241207608_3780125982088019_6118352795502614225_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\241207608_3780125982088019_6118352795502614225_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\241807148_115156577558074_5933084965388475680_n.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\241807148_115156577558074_5933084965388475680_n.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\241807148_115156577558074_5933084965388475680_n.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\242491540_361142985700688_7278469434594495671_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\242491540_361142985700688_7278469434594495671_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\242491540_361142985700688_7278469434594495671_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\244052894_1952161954965621_249203313541133785_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\244052894_1952161954965621_249203313541133785_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\244052894_1952161954965621_249203313541133785_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\244810264_344035010830311_3106918883347725425_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\244810264_344035010830311_3106918883347725425_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\244810264_344035010830311_3106918883347725425_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\245393586_593986205371999_2012924537002506216_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\245393586_593986205371999_2012924537002506216_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\245393586_593986205371999_2012924537002506216_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\271131010_1120570842017483_7495313365535145619_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\271131010_1120570842017483_7495313365535145619_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\271131010_1120570842017483_7495313365535145619_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\274471440_984832422147562_3219429172288914810_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\274471440_984832422147562_3219429172288914810_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\274471440_984832422147562_3219429172288914810_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\276086455_644560573272136_3448002464653723804_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\276086455_644560573272136_3448002464653723804_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\276086455_644560573272136_3448002464653723804_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\277813775_155598510263951_2916221285490220273_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\277813775_155598510263951_2916221285490220273_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\277813775_155598510263951_2916221285490220273_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\278073242_1043363036538693_94619331342056191_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\278073242_1043363036538693_94619331342056191_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\278073242_1043363036538693_94619331342056191_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\279105559_506800251147962_3972938135456588162_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\279105559_506800251147962_3972938135456588162_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\279105559_506800251147962_3972938135456588162_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\284559745_1664524667261404_3480380215563064604_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\284559745_1664524667261404_3480380215563064604_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\284559745_1664524667261404_3480380215563064604_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\286615756_190310436668239_1544915253832674512_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\286615756_190310436668239_1544915253832674512_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\286615756_190310436668239_1544915253832674512_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\287480306_175880448173508_4288273596622060449_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\287480306_175880448173508_4288273596622060449_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\287480306_175880448173508_4288273596622060449_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\288478931_177999771264460_3785551919397727054_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\288478931_177999771264460_3785551919397727054_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\288478931_177999771264460_3785551919397727054_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\297339628_744567366797194_443178380989312624_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\297339628_744567366797194_443178380989312624_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\297339628_744567366797194_443178380989312624_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\302166651_1444337106085893_798112574981303959_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\302166651_1444337106085893_798112574981303959_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\302166651_1444337106085893_798112574981303959_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\305833723_577335120842140_1331006036019493527_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\305833723_577335120842140_1331006036019493527_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\305833723_577335120842140_1331006036019493527_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\315558305_207560491673798_7185153298354188643_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\315558305_207560491673798_7185153298354188643_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\315558305_207560491673798_7185153298354188643_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\321988257_522269609863546_7839866442019895646_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\321988257_522269609863546_7839866442019895646_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\321988257_522269609863546_7839866442019895646_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\322252532_881430579956958_9190748050595506368_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\322252532_881430579956958_9190748050595506368_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\322252532_881430579956958_9190748050595506368_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\327209727_499533132354145_3100819367507931245_n.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\327209727_499533132354145_3100819367507931245_n.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\327209727_499533132354145_3100819367507931245_n.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\329177384_609162574335140_1693840120441490253_n.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\329177384_609162574335140_1693840120441490253_n.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\329177384_609162574335140_1693840120441490253_n.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\3327d95cea372d697426.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\3327d95cea372d697426.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\3327d95cea372d697426.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\33_thumb.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\33_thumb.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\33_thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\340344506_6220189461357247_535489820097986011_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\340344506_6220189461357247_535489820097986011_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\340344506_6220189461357247_535489820097986011_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\3474184888c55a633a91c98813252742_tn.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\3474184888c55a633a91c98813252742_tn.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\3474184888c55a633a91c98813252742_tn.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\42943070.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\42943070.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\42943070.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\51aJ4F9fJVL._AC_SY355_.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\51aJ4F9fJVL._AC_SY355_.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\51aJ4F9fJVL._AC_SY355_.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\59fb58e3a469e13d5d588c298813b4c6jerry-mouse-crying-in-tears.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\59fb58e3a469e13d5d588c298813b4c6jerry-mouse-crying-in-tears.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\59fb58e3a469e13d5d588c298813b4c6jerry-mouse-crying-in-tears.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\63d4c026c181357e6c08ada62db59b8b.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\63d4c026c181357e6c08ada62db59b8b.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\63d4c026c181357e6c08ada62db59b8b.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\643a5f7b7e426eae31ed79fe8d263e62.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\643a5f7b7e426eae31ed79fe8d263e62.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\643a5f7b7e426eae31ed79fe8d263e62.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\65e.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\65e.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\65e.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\69751101_555323451877169_2207437629060808704_n.gif",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\69751101_555323451877169_2207437629060808704_n.gif",
       "PackagePath": "staticwebassets\\img\\Ảnh\\69751101_555323451877169_2207437629060808704_n.gif"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\72204055_1026897467642481_1530521869491372032_n.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\72204055_1026897467642481_1530521869491372032_n.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\72204055_1026897467642481_1530521869491372032_n.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\787745.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\787745.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\787745.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\7b9f953b405dd8787310414e42c0ed11.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\7b9f953b405dd8787310414e42c0ed11.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\7b9f953b405dd8787310414e42c0ed11.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\95950071_10158346755383279_15865003601035264_o.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\95950071_10158346755383279_15865003601035264_o.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\95950071_10158346755383279_15865003601035264_o.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\99424518_2675603579353084_8736183820476219392_o.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\99424518_2675603579353084_8736183820476219392_o.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\99424518_2675603579353084_8736183820476219392_o.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\ANIME-PICTURES.NET_-_133101-2427x1500-original-neyagi-single-long+hair-highres-wide+image.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\ANIME-PICTURES.NET_-_133101-2427x1500-original-neyagi-single-long+hair-highres-wide+image.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\ANIME-PICTURES.NET_-_133101-2427x1500-original-neyagi-single-long+hair-highres-wide+image.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Anh-7-15375233311681590492299.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Anh-7-15375233311681590492299.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\Anh-7-15375233311681590492299.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01284.JPG",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01284.JPG",
       "PackagePath": "staticwebassets\\img\\Ảnh\\DSC01284.JPG"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01284_0.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01284_0.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\DSC01284_0.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01293.JPG",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01293.JPG",
       "PackagePath": "staticwebassets\\img\\Ảnh\\DSC01293.JPG"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01319.JPG",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01319.JPG",
       "PackagePath": "staticwebassets\\img\\Ảnh\\DSC01319.JPG"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01319_0.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01319_0.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\DSC01319_0.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01322.JPG",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\DSC01322.JPG",
       "PackagePath": "staticwebassets\\img\\Ảnh\\DSC01322.JPG"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Dx-Er7WUUAA9mqU.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Dx-Er7WUUAA9mqU.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\Dx-Er7WUUAA9mqU.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\EXy77ZxX0AEEt8o.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\EXy77ZxX0AEEt8o.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\EXy77ZxX0AEEt8o.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1572684435165.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1572684435165.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\FB_IMG_1572684435165.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1572734016948.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1572734016948.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\FB_IMG_1572734016948.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1572945107525.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1572945107525.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\FB_IMG_1572945107525.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1573583160211.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1573583160211.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\FB_IMG_1573583160211.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1574875623808.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1574875623808.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\FB_IMG_1574875623808.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1579071369354.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1579071369354.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\FB_IMG_1579071369354.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1585790702472.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\FB_IMG_1585790702472.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\FB_IMG_1585790702472.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Onmyoji VN_2019-10-10-21-00-20.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Onmyoji VN_2019-10-10-21-00-20.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\Onmyoji VN_2019-10-10-21-00-20.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Screenshot_20191001-002504_Onmyoji VN.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\Screenshot_20191001-002504_Onmyoji VN.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\Screenshot_20191001-002504_Onmyoji VN.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\avatercv.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\avatercv.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\avatercv.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\background.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\background.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\bomman-bomman-dap-ban.gif",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\bomman-bomman-dap-ban.gif",
       "PackagePath": "staticwebassets\\img\\Ảnh\\bomman-bomman-dap-ban.gif"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\c280f0e8720b5b4c8551d2d86878421f.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\c280f0e8720b5b4c8551d2d86878421f.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\c280f0e8720b5b4c8551d2d86878421f.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\dampfrankcaiman-sizerestricted-15965190821921537107394.gif",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\dampfrankcaiman-sizerestricted-15965190821921537107394.gif",
       "PackagePath": "staticwebassets\\img\\Ảnh\\dampfrankcaiman-sizerestricted-15965190821921537107394.gif"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\dau-mam-cho-cai-bong-ne-bot-dau-long-nghe.jpeg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\dau-mam-cho-cai-bong-ne-bot-dau-long-nghe.jpeg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\dau-mam-cho-cai-bong-ne-bot-dau-long-nghe.jpeg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\dau-o-day-nay-mat-vang-cuoi-than-thien-dbdae10189e75a82e55e11213b2c1c16.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\dau-o-day-nay-mat-vang-cuoi-than-thien-dbdae10189e75a82e55e11213b2c1c16.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\dau-o-day-nay-mat-vang-cuoi-than-thien-dbdae10189e75a82e55e11213b2c1c16.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\e792b95d948510b8a050b3530d9a3c15.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\e792b95d948510b8a050b3530d9a3c15.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\e792b95d948510b8a050b3530d9a3c15.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\ec0.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\ec0.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\ec0.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\eff454e95c14945a3ae14a9dfc4a4607.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\eff454e95c14945a3ae14a9dfc4a4607.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\eff454e95c14945a3ae14a9dfc4a4607.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\f45acd1033ded8c4e20782c4b3649131.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\f45acd1033ded8c4e20782c4b3649131.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\f45acd1033ded8c4e20782c4b3649131.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\fptlogo.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\fptlogo.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\fptlogo.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\hqdefault.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\hqdefault.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\hqdefault.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\iindf0l0v4q41.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\iindf0l0v4q41.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\iindf0l0v4q41.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\inu_ads.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\inu_ads.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\inu_ads.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\jakpost.travel-great-wave-off-kanagawa-2185986.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\jakpost.travel-great-wave-off-kanagawa-2185986.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\jakpost.travel-great-wave-off-kanagawa-2185986.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\khong.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\khong.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\khong.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\large_1623204686293.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\large_1623204686293.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\large_1623204686293.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\logo.png",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\logo.png",
       "PackagePath": "staticwebassets\\img\\Ảnh\\logo.png"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\maxresdefault.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\maxresdefault.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\maxresdefault.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\meo-vang-ngua-hai-tay-xin-an.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\meo-vang-ngua-hai-tay-xin-an.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\meo-vang-ngua-hai-tay-xin-an.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\news01.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\news01.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\news01.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\ql9uvf9ppqv61.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\ql9uvf9ppqv61.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\ql9uvf9ppqv61.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\received_676289573368349.jpeg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\received_676289573368349.jpeg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\received_676289573368349.jpeg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\shut-up-and-take-my-money.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\shut-up-and-take-my-money.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\shut-up-and-take-my-money.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\sonphong.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\sonphong.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\sonphong.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\sonpong1.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\sonpong1.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\sonpong1.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tải xuống.gif",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tải xuống.gif",
       "PackagePath": "staticwebassets\\img\\Ảnh\\tải xuống.gif"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tải xuống.jfif",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tải xuống.jfif",
       "PackagePath": "staticwebassets\\img\\Ảnh\\tải xuống.jfif"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tải xuống.jgp.jfif",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tải xuống.jgp.jfif",
       "PackagePath": "staticwebassets\\img\\Ảnh\\tải xuống.jgp.jfif"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\teemo-lol-beemo-splash-art-uhdpaper.com-4K-297.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\teemo-lol-beemo-splash-art-uhdpaper.com-4K-297.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\teemo-lol-beemo-splash-art-uhdpaper.com-4K-297.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tieu-su-kha-banh-1967-1-1.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\tieu-su-kha-banh-1967-1-1.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\tieu-su-kha-banh-1967-1-1.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\uong-mot-tach-tra-cho-tam-hon-thanh-tinh-28fef16682b568b8ee5947cc12e0096f.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\uong-mot-tach-tra-cho-tam-hon-thanh-tinh-28fef16682b568b8ee5947cc12e0096f.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\uong-mot-tach-tra-cho-tam-hon-thanh-tinh-28fef16682b568b8ee5947cc12e0096f.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\vit-lay-keo-dinh-cat-co-tu-tu.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\vit-lay-keo-dinh-cat-co-tu-tu.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\vit-lay-keo-dinh-cat-co-tu-tu.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\vit-trang-cam-dao-sang-choang.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\vit-trang-cam-dao-sang-choang.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\vit-trang-cam-dao-sang-choang.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\wallpaperflare.com_wallpaper.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\wallpaperflare.com_wallpaper.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\wallpaperflare.com_wallpaper.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\www_tiengdong_com-meme-meo-cam-dao-dung-bang-2-chan.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\www_tiengdong_com-meme-meo-cam-dao-dung-bang-2-chan.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\www_tiengdong_com-meme-meo-cam-dao-dung-bang-2-chan.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\z4bxo.jpg",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\img\\Ảnh\\z4bxo.jpg",
       "PackagePath": "staticwebassets\\img\\Ảnh\\z4bxo.jpg"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\RiRi\\OneDrive\\Máy tính\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\PHANMINHTIEN\\Downloads\\FPT_BOOKSTORE-ASP.NET-CORE_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
