@@ -39,13 +39,8 @@ public class BooksController : Controller
             var books = _context.Books
                 .Where(x => x.CreateBy == currentUserId)
                 .Include(x => x.Category).ToList();
-            
-            
-            
             return View(books);
         }
-
-
         // -------------------DELETE--------------------
         [HttpGet]
         public IActionResult Delete(int id)
@@ -58,8 +53,6 @@ public class BooksController : Controller
             TempData["ShowMessage"] = true; //Set flag to show message in the view
             return RedirectToAction(nameof(Index));
         }
-
-
         // -------------------UPSERT----------------------
         [HttpGet]
         public IActionResult Upsert(int? id)
@@ -74,13 +67,10 @@ public class BooksController : Controller
                 bookVm.Book = new Book();
                 return View(bookVm);
             }
-
             var book = _context.Books.Find(id);
             bookVm.Book = book;
             return View(bookVm);
         }
-
-
         [HttpPost]
         public IActionResult Upsert(BookVm bookVm)
         {
@@ -136,6 +126,10 @@ public class BooksController : Controller
             }
             else
             {
+                var claimsIdentity = (ClaimsIdentity)User.Identity;
+                var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+                var currentUserId = claim.Value;
+                bookVm.Book.CreateBy = currentUserId;
                 _context.Books.Update(bookVm.Book);
             }
             _context.SaveChanges();

@@ -11,10 +11,11 @@ public class Book
     public string Title { get; set; }
     [Required]
     public string Description { get; set; }
-    [Required]
-    public double Price { get; set; }
+
     [Range(0.01, double.MaxValue, ErrorMessage = "Price must be greater than 0")]
     [Required(ErrorMessage = "Price is required")]
+    public double Price { get; set; }
+    [Required]
     public string Author { get; set; }
     
     // [Required]
@@ -30,8 +31,6 @@ public class Book
     // link to category
     [ForeignKey("CategoryId")]
     public Category Category { get; set; }
-
-
     public string CreateBy { get; set; }
 }
     

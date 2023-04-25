@@ -69,7 +69,7 @@
 }
 
 .book-detail {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: #fff;
     display: flex;
@@ -82,7 +82,7 @@
 
 .book-detail-img {
     margin: 50px 40px;
-    height: 400px;
+    height: 500px;
     width: auto;
     border: 1px solid #162938;
     border-radius: 0.3em;
@@ -168,20 +168,19 @@ ion-icon {
 
 .cart-detail-product {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: auto;
-    height: 250px;
+    height: 400px;
     background: #fff;
-    margin-bottom: 40px;
 }
 
 .cart-detail-product-img {
     margin: 10px;
-    height: 200px;
+    height: 300px;
     width: 200px;
     min-width: 100px;
     border: 1px solid #162938;
-    margin-right: 50px;
+    margin-right: 50px !important;
 }
 .cart-detail-product-book {
     margin: 10px;

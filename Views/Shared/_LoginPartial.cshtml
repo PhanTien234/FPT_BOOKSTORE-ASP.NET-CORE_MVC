@@ -4,9 +4,9 @@
 
 <ul class="navbar-nav">
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="HelpScreen">
-            <span class="icon">
-                <ion-icon name="help-circle-outline" style="transform: translateY(2px); font-size: 1.4em;"></ion-icon>
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="HelpScreen" style="transform: translateY(-5px);">Help
+           <span class="icon">
+                <ion-icon name="help-circle-outline" style="transform: translateY(5px); font-size: 1.5em;"></ion-icon>
             </span>
         </a>
     </li>
@@ -19,7 +19,7 @@
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
             <button  type="submit" class="nav-link btn btn-link" style="color: rgb(94, 0, 0);">
                 <span class="icon">
-                    <ion-icon name="log-out-outline" s style="transform: translateY(1px); font-size: 1.4em;"></ion-icon>
+                    <ion-icon name="log-out-outline" s style=" font-size: 1.3em;"></ion-icon>
                 </span>
             </button>
         </form>

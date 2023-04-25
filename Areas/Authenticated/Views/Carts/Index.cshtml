@@ -24,16 +24,17 @@
                     <hr>
                     <p>Category: <b>@item.Book.Category.Name</b></p>
                     <hr>
-                    <p style="width: 200px; overflow: hidden">@item.Book.Description</p>
+                    <p style="width: 200px;">@item.Book.Description</p>
                     <hr>
-                    <strong>$ @item.Book.Price<span class="text-muted"> X </span> @item.Count </strong>
-                    <strong style="color: maroon;">
-                        =  @{
-                                    var bookPrice = item.Book.Price * item.Count;
-                                    @bookPrice
-                                } $
-                    </strong>
-                    
+                    <p>
+                        <strong>$ @item.Book.Price<span class="text-muted"> X </span> @item.Count </strong>
+                        <strong style="color: maroon">
+                            =  @{
+                                        var bookPrice = item.Book.Price * item.Count;
+                                        @bookPrice
+                                    } $
+                        </strong>
+                    </p>
                 </div>
                     <div class="cart-detail-edit">
                         <a asp-action="plus" asp-route-cartId="@item.Id">

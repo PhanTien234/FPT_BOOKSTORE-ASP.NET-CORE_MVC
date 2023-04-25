@@ -80,7 +80,6 @@ namespace FPT_BOOKSTORE.Controllers;
                 cart.Price = cart.Book.Price;
                 _db.SaveChanges();
             }
-
             return RedirectToAction(nameof(Index));
         }
 
@@ -201,16 +200,6 @@ namespace FPT_BOOKSTORE.Controllers;
         {
             var claimIdentity = (ClaimsIdentity) User.Identity;
             var claim = claimIdentity.FindFirst(ClaimTypes.NameIdentifier);
-            // var emailDb = _db.Users.Find(claim.Value).Email;
-            //
-            // MailContent content = new MailContent()
-            // {
-            //     To = emailDb,
-            //     Subject = "Thanks for order! Let's explore more",
-            //     Body = "<p>Order successfully!</p>"
-            // };
-            //
-            // _emailSender.SendMail(content);
             return View(id);
         }
     }
